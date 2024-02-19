@@ -1,3 +1,9 @@
 function focusById(idDiv) {
-    document.getElementById(idDiv).focus();
-}
+    var div = document.getElementById(idDiv);
+
+    if (div) {
+        div.scrollIntoView({ behavior: 'smooth' });
+        div.focus();
+    }
+    
+} 
