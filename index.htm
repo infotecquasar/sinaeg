@@ -427,10 +427,23 @@
 									</div>
 								</div>
 								<!--/ End Video Animation -->
-								<a href="https://www.youtube.com/watch?v=OKwI_J6___k" 
-									class="video video-popup mfp-iframe">
-									<i class="fa fa-play"></i>
-								</a>
+								<div id="idYouTubeVideoSinaeg"></div>
+
+								<script>
+
+									var videoUrl = "https://www.youtube.com/watch?v=OKwI_J6___k"; 
+								
+									var outputDiv = document.getElementById('idYouTubeVideoSinaeg');
+
+									var result = "<a href='https://www.youtube.com/watch?v=OKwI_J6___k' class='video video-popup mfp-iframe'>" +
+													"<i class='fa fa-play'></i>" +
+												 "</a>";
+								
+									outputDiv.innerHTML = result;
+								
+								</script>		
+
+
 							</div>
 						</div>
 						<!-- End Choose Rights -->
