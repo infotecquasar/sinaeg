@@ -44,6 +44,8 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
 	
+		<script src="js/slider/sliderFuncoes.js"></script>
+		
 		
     </head>
     <body>
@@ -131,7 +133,7 @@
 								<div class="mobile-nav"></div>
 								<!-- End Mobile Nav -->
 							</div>
-							<div class="col-lg-7 col-md-9 col-12">
+							<div class="col-lg-10 col-md-9 col-12">
 								<!-- Main Menu -->
 								<div class="main-menu">
 									<nav class="navigation">
@@ -158,13 +160,14 @@
 												</ul>
 											</li>
 											-->
-											<li><a style="cursor: pointer;" onclick="focusById('idNotícias')">Notícias</a></li>
-											<li><a style="cursor: pointer;" onclick="focusById('idNossosServicos')">Nossos Serviços</a></li>
-											<!--
-											<li><a style="cursor: pointer;" onclick="focusById('idContateNos')">Contate-nos</a></li>
-											-->
-											<li><a style="cursor: pointer;" onclick="focusById('idFilieSe')">Filie-se</a></li>
+											<li><a style="cursor: pointer;" onclick="focusById('idInicio')">Início</a></li>
+											<li><a style="cursor: pointer;" onclick="focusById('idNoticias')">Notícias</a></li>
+											<li><a style="cursor: pointer;" onclick="focusById('idLegislacao')">Legislação</a></li>			
+											<li><a style="cursor: pointer;" onclick="focusById('idMaisInformacoes')">Mais Informações</a></li>									
+											<li><a style="cursor: pointer;" onclick="focusById('idQuemSomosNos')">Quem Somos Nós</a></li>
+											<li><a style="cursor: pointer;" onclick="focusById('footer')">Nossas Redes Sociais</a></li>
 
+											
 										</ul>
 									</nav>
 								</div>
@@ -185,33 +188,14 @@
 		
 
 		<!-- Slider Area -->
-		<div id="imagensSliderSinaeg" ></div>
-
+		<div id="imagensSliderSinaeg"></div>
 		<p style="font-size: 25px;margin-top:-60px ;color:white;background-color: black; z-index:9999 !important;position:absolute;font-weight: bolder;">
 			SINAEG representando os servidores do ERCE no ano de 2014 com o então Secretário de Relações Institucionais da Presidência da República, o Senhor Ricardo Berzoini.
-		</p>
-		
+		</p>		
 		<!-- adiciona as fotos slider do comeco da pagina-->
 		<script>				
-				var outputDiv = document.getElementById('imagensSliderSinaeg');
-				if(outputDiv){ 
-					var result = "<section class='slider'>";
-							result += "<div class='hero-slider' style='-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);border-radius: 9px;'>";
-					
-					// total de arquivos que existir
-					for (var i = 1; i <= 7; i++) {
-						var nomeFoto = "img/noticias/fotos2/fotos"+i+".jpg";
-						result += "<div class='single-slider' style='background-image:url("+nomeFoto+");'></div>";							
-					}
-							
-						result += "</div>";
-					result += "</section>";
-					// Set the inner HTML of the output div to the result string
-					outputDiv.innerHTML = result;
-				}
-							
-		</script>
-		
+				carregarSliderPorDiv('imagensSliderSinaeg','img/noticias/fotos2/fotos',7);							
+		</script>		
 		<!--/ End Slider Area -->
 		
 		
@@ -285,7 +269,7 @@
 
 		<!-- Start Feautes -->
 		<section class="Feautes section">
-			<div id="idNotícias" tabindex="8" class="container">
+			<div id="idInicio" tabindex="0" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
@@ -296,28 +280,35 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12 col-12">
+					<div class="col-lg-6 col-12">
 						<div class="single-features">
 							<div class="signle-icon">
 								<i class="icofont-dart icofont-1x"></i>
 							</div>
 							<h3>Canal do SINAEG</h3>
-							<p style="font-weight: bolder;">Você conhece o canal do SINAEG no Youtube? O SINAEG lhe convida a se inscrever no canal e obter as notícias mais atualizadas do SINAEG na luta pela valorização dos cargos específicos do ERCE. Acreditamos que juntos somos mais fortes então venha se juntar a nos no Youtube e no SINAEG com sua filiação. PAra isso basta clicar AQUI, seguir as instruções e se filiar ao SINAEG.</p>
+							<p style="font-weight: bolder;">Você conhece o canal do SINAEG no Youtube? O SINAEG lhe convida a se inscrever no canal e obter as notícias mais atualizadas do SINAEG na luta pela valorização dos cargos específicos do ERCE. Acreditamos que juntos somos mais fortes então venha se juntar a nos no Youtube e no SINAEG com sua filiação. Para isso basta clicar AQUI, seguir as instruções e se filiar ao SINAEG.</p>
 						</div>
 					</div>
-					<!-- Start Single features 
-					<div class="col-lg-4 col-12">
+					
+					<div class="col-lg-6 col-12">
 						
 						<div class="single-features">
 							<div class="signle-icon">
 								<i class="icofont icofont-comment"></i>
 							</div>
-							<h3>Informação 2</h3>
-							<p>Suas Anotações</p>
+							<h3>História do SINAEG</h3>
+							<p style="font-weight: bolder;">O Sindicato Nacional dos Servidores dos Cargos Específicos do Poder Executivo Federal – SINAEG, entidade representante dos Cargos Específicos de Arquiteto, Economista, Engenheiro, Estatístico e Geólogo do Executivo Federal, alcançados pelo artigo 19 da Lei nº 12.277 de 30 de junho de 2010, entidade fundada em 14 de agosto de 2013, trabalha pela valorização e pelo fortalecimento dos respectivos cargos como profissionais de elevada competência técnica, necessários para o desenvolvimento econômico, social e da infraestrutura nacional. O SINAEG também ratifica o compromisso com os trabalhadores e o sistema sindical deste país. 
+
+								A história do SINAEG origina-se do trabalho coletivo de membros e diretores experientes na condução de entidades associativas de objetivos institucionais análogos ao do novo sindicato, sendo elas a Associação Nacional dos Servidores Públicos Engenheiros, Arquitetos e Agrônomos do Poder Executivo Federal - ANSEAF e a Associação Nacional dos Servidores Economistas e Estatísticos do Poder Executivo Federal - ANSEEFE.
+								
+								Ambas as entidades, desde o início, lutaram pelo melhor aproveitamento dos Cargos Específicos  dentro do Poder Executivo Federal, de modo que elaboraram conjuntamente um estudo de reorganização estrutural desses cargos para implantação de uma Carreira Transversal (Carreira de Infraestrutura e Desenvolvimento), direcionada para tais políticas públicas, objetivando prover recursos humanos com competência técnica compatível para melhor servir ao Estado e à sociedade.
+								
+								No ano de 2023 foi eleita a nova diretoria do sindicato que atualmente trabalho no âmbito da Mesa NAcional de Negociação Permanente (MNNP) do Ministério da Gestão e Inovação (MGI) para que seja devidamente reconhecida a defasagem imposta aos servidores dos cargos do ERCE nos últimos 15 anos.
+							</p>
 						</div>
 						
 					</div>
-					
+					<!-- Start Single features 
 					<div class="col-lg-4 col-12">
 						<div class="single-features last">
 							<div class="signle-icon">
@@ -390,13 +381,13 @@
 		
 		<!-- Start Why choose -->
 		<section class="why-choose section" style="background-color: #bbc9ee;">
-			<div id="idFilieSe" tabindex="11" class="container">
+			<div id="idQuemSomosNos" tabindex="3" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Filie-se a Nós </h2>
+							<h2></h2>
 							<img src="img/section-img.png" alt="#">
-							<p>Descrição dos Serviços</p>
+							<p></p>
 						</div>
 					</div>
 				</div>
@@ -405,11 +396,13 @@
 						<!-- Start Choose Left -->
 						<div class="choose-left">
 							<h3>Quem somos nós</h3>
-							<a style="color: red;font-weight: bolder;" target="_blank"  href="https://www.youtube.com/channel/UCmuFSF4f4tIhCyhUELOwm3g">Link Canal Vídeos</a>
+							<a href="https://www.youtube.com/channel/UCmuFSF4f4tIhCyhUELOwm3g" 
+								  target="_blank" style="color: white;"
+								   class="btn">Link Canal Vídeos &nbsp;<i class="fa fa-long-arrow-right"></i></a>
 							<div class="row">
 								<div class="col-lg-6">
 									<ul class="list">
-										<li><i class="fa fa-caret-right"></i>MANDATO: 2023/2026
+										<li><i class="fa fa-caret-right"></i> <span style="color: black;"> MANDATO: 2023/2026 </span>
 											<p style="font-weight: bolder;color:black">	
 											Presidente: Flauzino Antunes Neto <br/>
 											Vice-Presidente: Érico Hoffman Irala<br/>
@@ -498,16 +491,26 @@
 		
 		<!-- Start Call to action -->
 		<section class="call-action overlay" data-stellar-background-ratio="0.5">
-			<div id="idNossosServicos" tabindex="9" class="container">
+			<div id="idLegislacao" tabindex="2" class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="content">
-							<h2>Conheça os nossos serviços? Ligue @ 1234 56789</h2>
-							<p>Descrição.</p>
+							<h2>Legislação</h2>
+							
+							
+							<p style="font-weight: bold;">
+								1. Projeto de Lei nº 5920/2009 e justificativa Presidencial <br/>
+								2. Lei nº 12.277/2010 - Criação da estrutura remuneratória dos Cargos Específicos
+							</p>
+
+							
 							<div class="button">
-								<a href="#" class="btn">Contate agora</a>
-								<a href="#" class="btn second">Aprenda Mais<i class="fa fa-long-arrow-right"></i></a>
+								<a href="https://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2010/Lei/L12277.htm" 
+								  target="_blank" 
+								   class="btn">Link Aqui &nbsp;<i class="fa fa-long-arrow-right"></i></a>
+							
 							</div>
+							 
 						</div>
 					</div>
 				</div>
@@ -517,13 +520,13 @@
 		
 		<!-- Start portfolio -->
 		<section class="portfolio section" style="background-color: #bbc9ee;">
-			<div class="container">
+			<div id="idMaisInformacoes" tabindex="4" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Mantemos todos bem informados</h2>
 							<img src="img/section-img.png" alt="#">
-							<p style="color: black; font-weight: bold;">Descrição</p>
+							<p style="color: black; font-weight: bold;">Desde 2013, ano de sua fundação, o SINAEG representa em alto nível os cargos do ERCE> Noa no de 2013 a luta era pela regulamentação da gratificação de desempenho, pois, os servidores ainda percebiam somente 80% de suas gratificações de desempenho. Também ali se iniciou a campanha pela valorização dos cargos com a devida reestruturação da carreira. No dia 22.10.2013 o SINAEG foi recebido pelo então assessor da Presidência da República, que hoje em 2024 é o atual Secretário de Relações do Trabalho do MGI, o Senhor José Lopes Feijó. </p>
 						</div>
 					</div>
 				</div>
@@ -533,37 +536,31 @@
 					<div class="col-lg-12 col-12">
 						<div class="owl-carousel portfolio-slider">
 							<div class="single-pf">
-								<img src="img/pf1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">Detalhes</a>
+								<img src="img/noticias/fotos1/presidencia1.jpg" alt="#">
+								<p style="color: black; font-weight: bold;" ></p>
 							</div>
 							<div class="single-pf">
-								<img src="img/pf2.jpg" alt="#">
+								<img src="img/noticias/fotos1/presidencia2.jpg" alt="#">
+								<!-- 
 								<a href="portfolio-details.html" class="btn">Detalhes</a>
+								-->
 							</div>
+
 							<div class="single-pf">
-								<img src="img/pf3.jpg" alt="#">
+								<img src="img/noticias/fotos1/presidencia3.jpg" alt="#">
+								<!-- 
 								<a href="portfolio-details.html" class="btn">Detalhes</a>
+								-->
 							</div>
+
 							<div class="single-pf">
-								<img src="img/pf4.jpg" alt="#">
+								<img src="img/noticias/fotos1/presidencia1.jpg" alt="#">
+								<!-- 
 								<a href="portfolio-details.html" class="btn">Detalhes</a>
+								-->
 							</div>
-							<div class="single-pf">
-								<img src="img/pf1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">Detalhes</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf2.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">Detalhes</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf3.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">Detalhes</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf4.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">Detalhes</a>
-							</div>
+							
+							
 						</div>
 					</div>
 				</div>
@@ -573,71 +570,77 @@
 		
 		<!-- Start service -->
 		<section class="services section" style="background-color: #EDF2FF">
-			<div class="container">
+			<div id="idNoticias" tabindex="1" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Oferecemos diversos serviços</h2>
+							<h2>Notícias</h2>
 							<img src="img/section-img.png" alt="#">
-							<p>Descrição Detalhada</p>
+							<p></p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
+					<div class="col-lg-12 col-md-6 col-12">
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 1</a></h4>
-							<p>descrição Detalhada </p>	
+							<h4>Notícia 1</h4>
+							<p style="font-weight: bold;color: black;">Os cargos do ERCE em alta na Administração Pública federal. 
+								O recente Concurno Nacional Unificado (CNU) colocou os cargos de arquiteto, economista, 
+								engenheiro, estatístico e geólogo no mais elevado nível de competência e concorrência. 
+								Com mais de 400 vagas somados todos os cargos, as vagas estão nos blocos mais disputados, 
+								sendo o Bloco 1, da Infraestrutura, Exatas e Engenharias e o Bloco 6 dos setores econômicos e de regulação. 
+								Isso deixa claro como os servidores dos cargos do ERCE são de altíssima relevância para o atingimento das 
+								propostas de um Estado moderno que possa resolver os problemas históricos de desigualdades econômicos, 
+								sociais e regionais do país. Contamos em breve com vocês, novos servidores do ERCE em se filiarem ao
+								SINAEG e fortalecerem nossa Luta. Clique AQUI e preencha sua ficha de filiação. 
+								Detalhes do CNU podem ser acessados através do link <br/>
+								<a href="https://www.gov.br/gestao/pt-br/concursonacional/blocos-tematicos/blocos-tematicos-do-concurso-publico-nacional-unificado" 
+								  target="_blank" style="color:white"
+								   class="btn">Link Aqui </a> <br/>							 
+								 Boa sorte e nos vemos em breve.</p>	
 						</div>
-						<!-- End Single Service -->
+					</div>
+					<!--
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="single-service">
+							<i class="icofont-duotone icofont-comment"></i>
+							<h4><a href="service-details.html">Notícia 2</a></h4>
+							<p> </p>	
+						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 2</a></h4>
+							<h4><a href="service-details.html">Notícia 3</a></h4>
+							<p> </p>	
+						</div>
+					</div>
+
+					
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="single-service">
+							<i class="icofont-duotone icofont-comment"></i>
+							<h4><a href="service-details.html">Notícia 4</a></h4>
 							<p>Descrição Detalhada </p>	
 						</div>
-						<!-- End Single Service -->
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 3</a></h4>
+							<h4><a href="service-details.html">Notícia 5</a></h4>
 							<p>Descrição Detalhada </p>	
 						</div>
-						<!-- End Single Service -->
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 4</a></h4>
+							<h4><a href="service-details.html">Notícia 6</a></h4>
 							<p>Descrição Detalhada </p>	
 						</div>
-						<!-- End Single Service -->
 					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 5</a></h4>
-							<p>Descrição Detalhada </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont-duotone icofont-comment"></i>
-							<h4><a href="service-details.html">Serviço 6</a></h4>
-							<p>Descrição Detalhada </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
+					 -->
 				</div>
 			</div>
 		</section>
@@ -745,7 +748,7 @@
 		
 		
 		
-		<!-- Start Blog Area -->
+		<!-- Start Blog Area 
 		<section class="blog section" id="blog">
 			<div class="container">
 				<div class="row">
@@ -759,7 +762,6 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
 								<img src="img/blog1.jpg" alt="#">
@@ -772,10 +774,8 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Blog -->
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
 								<img src="img/blog2.jpg" alt="#">
@@ -788,10 +788,8 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Blog -->
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
 								<img src="img/blog3.jpg" alt="#">
@@ -804,11 +802,11 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Single Blog -->
 					</div>
 				</div>
 			</div>
 		</section>
+		-->
 		<!-- End Blog Area -->
 		
 		<!-- Start clients -->
@@ -953,14 +951,14 @@
 		<!-- /End Newsletter Area -->
 		
 		<!-- Footer Area -->
-		<footer id="footer" class="footer ">
+		<footer id="footer" tabindex="5" class="footer ">
 			<!-- Footer Top -->
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-6 col-12">
 							<div class="single-footer">
-								<h2>Sobre Nós</h2>
+								<h2>Contáte- Nós Pelas Redes Sociais</h2>
 								<p>Descrição 1.</p>
 								<!-- Social -->
 								<ul class="social">
