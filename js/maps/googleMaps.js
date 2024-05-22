@@ -1,5 +1,5 @@
 function initMap() {
-    var myLatLng = {lat: -15.8027623, lng: -47.9572857};
+    var myLatLng = {lat: -15.797213838048698, lng: -47.88644233699109};
 
             // Create a map object and specify the DOM element for display.
             var map = new google.maps.Map(document.getElementById('map'), {
@@ -11,6 +11,6 @@ function initMap() {
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'Sinaeg' // Optional title for the marker
+                title: 'SCS, Quadra 01, Bloco K, Ed. Denasa 1 andar, DF, 70398-900' // Optional title for the marker
             });
 }
