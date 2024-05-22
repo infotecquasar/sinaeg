@@ -11,6 +11,6 @@ function initMap() {
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'SCS, Quadra 01, Bloco K, Ed. Denasa 1 andar, DF, 70398-900' // Optional title for the marker
+                title: 'CSPB/SINAEG - SCS, Quadra 01, Bloco K, Ed. Denasa 1 andar, DF, 70398-900' // Optional title for the marker
             });
 }
