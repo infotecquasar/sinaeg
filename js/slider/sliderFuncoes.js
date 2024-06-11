@@ -1,6 +1,5 @@
-function carregarSliderPorDiv(idDivImagens,idDivImagensTexto,nomeFotoComCaminho,totalFotos) {
+function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
     var outputDivImagens = document.getElementById(idDivImagens);
-    var outputDivImagensTexto = document.getElementById(idDivImagensTexto);
     if(outputDivImagens){ 
         var result = "<section class='slider' ;>";
                 result += "<div class='hero-slider' style='-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);border-radius: 9px;'>";
@@ -26,24 +25,4 @@ function carregarSliderPorDiv(idDivImagens,idDivImagensTexto,nomeFotoComCaminho,
         outputDivImagens.innerHTML = result;
 
     }
-}
-
-
-let currentSlide = 0;
-
-function showSlide(index) {
-    const slides = document.querySelectorAll('.slide');
-    if (index >= slides.length) {
-        currentSlide = 0;
-    } else if (index < 0) {
-        currentSlide = slides.length - 1;
-    } else {
-        currentSlide = index;
-    }
-    const offset = -currentSlide * 100;
-    document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
-}
-
-function changeSlide(n) {
-    showSlide(currentSlide + n);
 }
