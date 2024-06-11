@@ -601,7 +601,6 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
-	padding-left: 45px !important;
 }
 .slider .single-slider .text{
 	margin-top:120px;
@@ -4218,5 +4217,22 @@ body{
     color: white;
     font-size: 18px;
     border-radius: 5px;
+}
+
+.image-container {
+	width: 100%;
+    max-width: 100%; /* Example max width */
+    height: 100%; /* Fixed height for demonstration */
+    border: 2px solid #ccc; /* Optional: to visualize the container */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    display: flex;
+    align-items: center; /* Vertically centers the image within the container */
+    justify-content: center;
+}
+
+.responsive-image {
+	height: 100%;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
 }
 
