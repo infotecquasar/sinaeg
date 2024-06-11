@@ -9,7 +9,7 @@ function carregarSliderPorDiv(idDivImagens,idDivImagensTexto,nomeFotoComCaminho,
         for (var i = 1; i <= totalFotos; i++) {
             var nomeFoto = nomeFotoComCaminho + i + ".jpg";
             result += "<div class='single-slider'>"; 
-            result += "<img src='"+nomeFoto+"' style='height: 120% !important;width: 95% !important' alt='Image 2'></img> ";          						
+            result += "<img src='"+nomeFoto+"' style='height: 900px !important;width: 95% !important' alt='Image 2'></img> ";          						
             
             if(i ==! 1){
                 result += "<div class='caption'>SINAEG representando os servidores do ERCE no ano de 2014 com o então Secretário de Relações Institucionais da Presidência da República, o Senhor Ricardo Berzoini.</div>";
