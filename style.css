@@ -4205,3 +4205,17 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+
+
+.caption {
+    position: absolute;
+    bottom: 60px;
+    left: 35%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
