@@ -11,15 +11,9 @@ function carregarSliderPorDiv(idDivImagens,idDivImagensTexto,nomeFotoComCaminho,
             result += "<div class='single-slider'>"; 
             result += "<img src='"+nomeFoto+"' style='height: 120% !important;width: 95% !important' alt='Image 2'></img> ";          						
             
-            if(i === 1){
-                result += "<div class='caption'>ASSEMBLÉIA GERAL EXTRAORDINÁRIA DIA 12/06/2024 ÀS 19:00</div>";
-
-            }else if(i === 2){
-                result += "<div class='caption'>O SINAEG convida todos os seus filiados para Assembleia Extraordinária a realizar-se no dia 20.05.2024, segunda-feira, às 19:00 de forma online. O link será enviado previamente no grupo de mensagens dos filiados do SINAEG. Pauta: 1. Apresentar e votar a contraproposta do SINAEG ao MGI sobre os cargos da ERCE (Lei n⁰ 12.277/2010).</div>";
-            
-            } else {
+            if(i ==! 1){
                 result += "<div class='caption'>SINAEG representando os servidores do ERCE no ano de 2014 com o então Secretário de Relações Institucionais da Presidência da República, o Senhor Ricardo Berzoini.</div>";
-            
+
             }
             
             result += "</div>";
