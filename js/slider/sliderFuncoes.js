@@ -12,7 +12,12 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
             result += "<div class='image-container'>";
             result += "<img src='"+nomeFoto+"' class='responsive-image' ></img> ";          						
             result += "</div>";
-            if(i !== 1){
+            if(i === 1) {
+                result += "<div class='caption'>📢 ERCE REJEITA proposta do Governo e categoria solicita continuação da negociação 📢";
+                result += " mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
+                result += "</div>"
+            } else {
+           
                 result += "<div class='caption'>SINAEG representando os servidores do ERCE no ano de 2014 com o então Secretário de Relações Institucionais da Presidência da República, o Senhor Ricardo Berzoini.</div>";
 
             }
