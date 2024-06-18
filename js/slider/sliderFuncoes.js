@@ -13,7 +13,7 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
             result += "<img src='"+nomeFoto+"' class='responsive-image' ></img> ";          						
             result += "</div>";
             if(i === 1) {
-                result += "<div class='caption'>📢 ERCE REJEITA proposta do Governo e categoria solicita continuação da negociação 📢";
+                result += "<div class='caption'>📢 *ATENÇÃO, SERVIDORES DO SINAEG!* 📢 *Transferência da Assembleia Extraordinária do SINAEG para 19 de Junho*";
                 result += " mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
                 result += "</div>"
             } else {
