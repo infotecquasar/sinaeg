@@ -5,15 +5,15 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
                 result += "<div class='hero-slider' style='-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,1.0);border-radius: 9px;'>";
         
         // total de arquivos que existir
-        for (var i = 1; i <= totalFotos; i++) {
+        for (var i = 2; i <= totalFotos; i++) {
             var nomeFoto = nomeFotoComCaminho + i + ".jpg";
             result += "<div class='single-slider'>"; 
 
             result += "<div class='image-container'>";
             result += "<img src='"+nomeFoto+"' class='responsive-image' ></img> ";          						
             result += "</div>";
-            if(i === 1) {
-                result += "<div class='caption'>📢 *ATENÇÃO, SERVIDORES DO SINAEG!* 📢 *Transferência da Assembleia Extraordinária do SINAEG para 19 de Junho*";
+            if(i === 2 || i === 3) {
+                result += "<div class='caption'>📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*";
                 result += " mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
                 result += "</div>"
             } else {
