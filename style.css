@@ -4210,7 +4210,7 @@ body{
 
 .caption {
     position: absolute;
-    bottom: 60px;
+    bottom: 10px;
     left: 35%;
     transform: translateX(-50%);
     background: black;
