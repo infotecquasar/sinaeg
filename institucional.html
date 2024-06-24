@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>SINAEG</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon-sinaeg.jpg">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- icofont CSS -->
+    <link rel="stylesheet" href="css/icofont.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Medipro CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/template.js"></script>
+
+
+    	
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+		<!-- CSP JS -->
+		<script src="js/csp.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbn6LcWCfCn9VUPcbAfFj5CEZD4FuuDjU"></script>
+
+		<script src="js/maps/googleMaps.js"></script>
+
+    <script src="js/slider/sliderFuncoes.js"></script>
+
+    <script src="js/funcoes.js"></script>
+</head>
+
+<body onload="initMap()">
+    <div class="page-loader">
+         <div class="preloader">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
+
+                <div class="indicator"> 
+                    <svg width="16px" height="12px">
+                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar 
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+							
+							<ul class="top-link">
+								<li><a href="#">Sobre Nós</a></li>
+								<li><a href="#">Doutores</a></li>
+								<li><a href="#">Contato</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+							
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+5561983007154</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:infotecquasar@gmail.com">infotecquasar@gmail.com</a></li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			-->
+			<!-- End Topbar -->
+			<!-- Header Inner class="header-inner" para o menu 'grudar quando rolar a página' -->
+			<div style="-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,0.77); 
+			box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,0.77);border-radius: 9px; background-color: #EDF2FF;">
+				<div class="container-fluid">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-2 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.htm">
+										<img src="img/logo-sinaeg.png" style="width: 100px; height: 80px;" alt="#">
+									</a>
+									&nbsp;&nbsp;&nbsp;
+									<span style="font-size: 18px; font-weight: bold;">
+										<a href="index.htm" style="font-weight: bold;">SINAEG</a>	
+
+									</span>
+								</div>
+
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+
+							<div class="col-lg-10 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<!--
+											<li class="active"><a href="#">Início <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="index.html">Página 1</a></li>
+												</ul>
+											</li>
+											
+											<li><a href="#">Menu 1 </a></li>
+											<li><a href="#">Menu 2 </a></li>
+ 											-->
+
+											<!-- <li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="404.html">404 Error</a></li>
+												</ul>
+											</li> 
+											<li><a href="#">Menu 3 <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="blog-single.html">Sub Menu 3</a></li>
+												</ul>
+											</li>
+											-->
+											<li><a style="cursor: pointer;" href="index.htm">Início</a></li>
+											<li><a style="cursor: pointer;" href="institucional.html">Institucional</a></li>
+											<li><a style="cursor: pointer;" href="noticias.html" >Notícias</a></li>
+											<li><a style="cursor: pointer;" href="legislacao.html" >Legislação</a></li>			
+											<li><a style="cursor: pointer;" href="maisInformacoes.html">Mais Informações</a></li>								
+											<li><a style="cursor: pointer;" href="quemSomosNos.html">Quem Somos Nós</a></li>
+											<li><a style="cursor: pointer;" href="publicacoes.html">Publicações</a></li>
+
+											
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+
+							 <div class="col-lg-12 col-12" style="margin-top: -10px !important; display: flex;
+							 justify-content: center; 
+							 align-items: center">
+								<div class="get-quote">
+									<span style="color: black; font-weight: bold;">Sindicato Nacional dos Arquitetos, Economistas, Engenheiros, Estatísticos e Geólogos do Poder Executivo Federal</span> 
+
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		<br/>
+
+
+        <h1>EM CONSTRUÇÂO</h1>
+    <div class="container item-page page-cards pb-80 " itemscope itemtype="https://schema.org/Blog">
+        <div class="row cards pt-40">
+            <div class="col-12 col-sm-6 col-lg-4 pb-120">
+                <div class="featured-service-item">
+                    <div class="featured-service-visible">
+                        <div class="featured-service-thumb">
+                            <img class="w-100"
+                                src="https://www.anati.org.br/media_files/images/paginas/2020/12/about.jpg"
+                                alt="Quem Somoss">
+                        </div>
+                        <div class="featured-service-details">
+                            <h3 class="service-title">Quem Somos</h3>
+                        </div>
+                    </div>
+                    <a href="/institucional/quem-somos">
+                        <div class="featured-service-on-hover">
+                            <div class="featured-service-thumb-full">
+                                <img class="w-100"
+                                    src="https://www.anati.org.br/media_files/images/paginas/2020/12/about.jpg"
+                                    alt="Quem Somos">
+                            </div>
+                            <div class="featured-service-details">
+                                <div class="content">
+                                    <h3 class="service-title">Quem Somos</h3>
+                                    <p>Sindicato Nacional dos Arquitetos, Economistas, Engenheiros, Estatísticos e Geólogos do Poder Executivo Federal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pb-120">
+                <div class="featured-service-item">
+                    <div class="featured-service-visible">
+                        <div class="featured-service-thumb">
+                            <img class="w-100"
+                                src="https://www.anati.org.br/media_files/images/paginas/2020/12/estatuto.jpg"
+                                alt="Diretoria">
+                        </div>
+                        <div class="featured-service-details">
+                            <h3 class="service-title">Diretoria</h3>
+                        </div>
+                    </div>
+                    <a href="/institucional/estatuto-social">
+                        <div class="featured-service-on-hover">
+                            <div class="featured-service-thumb-full">
+                                <img class="w-100"
+                                    src="https://www.anati.org.br/media_files/images/paginas/2020/12/estatuto.jpg"
+                                    alt="Diretoria">
+                            </div>
+                            <div class="featured-service-details">
+                                <div class="content">
+                                    <h3 class="service-title">Diretoria</h3>
+                                    <p>&nbsp;</p>
+                                    <p>Diretoria do SINAEG</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pb-120">
+                <div class="featured-service-item">
+                    <div class="featured-service-visible">
+                        <div class="featured-service-thumb">
+                            <img class="w-100"
+                                src="https://www.anati.org.br/media_files/images/paginas/2020/12/meetings.jpg"
+                                alt="Estatuto Social">
+                        </div>
+                        <div class="featured-service-details">
+                            <h3 class="service-title">Estatuto Social</h3>
+                        </div>
+                    </div>
+                    <a href="/institucional/assembleias">
+                        <div class="featured-service-on-hover">
+                            <div class="featured-service-thumb-full">
+                                <img class="w-100"
+                                    src="https://www.anati.org.br/media_files/images/paginas/2020/12/meetings.jpg"
+                                    alt="Estatuto Social">
+                            </div>
+                            <div class="featured-service-details">
+                                <div class="content">
+                                    <h3 class="service-title">Estatuto Social</h3>
+                                    <p>Estatuto Social</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pb-120">
+                <div class="featured-service-item">
+                    <div class="featured-service-visible">
+                        <div class="featured-service-thumb">
+                            <img class="w-100"
+                                src="https://www.anati.org.br/media_files/images/paginas/2020/12/signup.jpg"
+                                alt="Filie-se">
+                        </div>
+                        <div class="featured-service-details">
+                            <h3 class="service-title">Filie-se</h3>
+                        </div>
+                    </div>
+                    <a href="/associe-se">
+                        <div class="featured-service-on-hover">
+                            <div class="featured-service-thumb-full">
+                                <img class="w-100"
+                                    src="https://www.anati.org.br/media_files/images/paginas/2020/12/signup.jpg"
+                                    alt="Associe-se">
+                            </div>
+                            <div class="featured-service-details">
+                                <div class="content">
+                                    <h3 class="service-title">Filie-se</h3>
+                                    <p>Junte-se a nós: solicite sua filiação</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
