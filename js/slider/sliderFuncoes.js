@@ -13,7 +13,7 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
             result += "<img src='"+nomeFoto+"' class='responsive-image' ></img> ";          						
             result += "</div>";
             if(i === 1) {
-                result += "<div class='caption'>📢 *ATENÇÃO,Assembleia Geral Extraordinária do SINAEG Convocada para Discutir Proposta do Governo⭐";
+                result += "<div class='caption'>📢 *ATENÇÃO,### SINAEG Aprova Proposta de Reajuste Salarial do Governo Federal⭐";
                 result += " para mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
                 result += "</div>"
              } else if(i === 2) {
