@@ -6,7 +6,7 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
         
         // total de arquivos que existir
         for (var i = 1; i <= totalFotos; i++) {
-            var nomeFoto = nomeFotoComCaminho + i + ".jpg";
+            var nomeFoto = nomeFotoComCaminho + i + ".jpg"; 
             result += "<div class='single-slider'>"; 
 
             result += "<div class='image-container'>";
