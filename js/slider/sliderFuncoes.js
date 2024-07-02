@@ -18,6 +18,7 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
                 result += "</div>"
              } else if(i === 2) {
                 result += "<div class='caption'>📢 *ATENÇÃO,### SINAEG Aprova Proposta de Reajuste Salarial do Governo Federal⭐";
+                result += " para mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
                 result += "</div>"
              } else if(i === 3) {
                 result += "<div class='caption'>📢 *ATENÇÃO,Presidente do SINAEG Defende Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados⭐";
