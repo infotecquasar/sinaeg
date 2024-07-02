@@ -13,16 +13,19 @@ function carregarSliderPorDiv(idDivImagens,nomeFotoComCaminho,totalFotos) {
             result += "<img src='"+nomeFoto+"' class='responsive-image' ></img> ";          						
             result += "</div>";
             if(i === 1) {
-                result += "<div class='caption'>📢 *ATENÇÃO,### SINAEG Aprova Proposta de Reajuste Salarial do Governo Federal⭐";
-                result += " para mais informações clique <a href='noticias.html' style='font-weight:bolder'> Aqui </a> ";
+                result += "<div class='caption'>Seja parte da Mudança⭐";
+                result += " para mais informações clique <a href='maisInformacoes.html' style='font-weight:bolder'> Aqui </a> ";
                 result += "</div>"
              } else if(i === 2) {
+                result += "<div class='caption'>📢 *ATENÇÃO,### SINAEG Aprova Proposta de Reajuste Salarial do Governo Federal⭐";
+                result += "</div>"
+             } else if(i === 3) {
                 result += "<div class='caption'>📢 *ATENÇÃO,Presidente do SINAEG Defende Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados⭐";
                 result += "</div>"
-             } else if (i === 3){
+             } else if (i === 4){
                 result += "<div class='caption'>📢 *ATENÇÃO,SINAEG e CONDSEF protocolam Complementação de Informações Técnicas na SRT/MGI";
                 result += "</div>"
-            } else if(i === 4 || i === 5) {
+            } else if(i === 5 || i === 6) {
                 result += "<div class='caption'>📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*";
                 result += "</div>"
             } else {
