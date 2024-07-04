@@ -48,7 +48,7 @@
 }
 .text-alerta {
 	position: absolute;
-	background-color: #8f1517;
+	background-color: #1A76D1;
 	height: 25px;
 	padding: 1px 10px 1px 10px;
 }
@@ -69,7 +69,7 @@
 	height: 13px;
 }
 #myslide .carousel-indicators .active {
-	background-color: #9e191a;
+	background-color: #1A76D1
 }
 #myslide .carousel-caption .text {
 	height: 60px;
@@ -322,7 +322,7 @@
 	padding: 7px;
 }
 .custom-red-button {
-	background-color: #8f1517;
+	background-color: #1A76D1;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
