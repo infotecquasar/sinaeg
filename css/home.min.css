@@ -94,7 +94,6 @@
 	background-color: #1A76D1;
 	color: white;
 	font-size: 14px;
-	padding: 10px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
@@ -283,13 +282,12 @@
 .box-red {
 	width: 102px;
 	height: 28px;
-	background-color: #8f1517;
+	background-color: #1A76D1;
 	margin-top: 5px;
 	font-size: 10px;
 }
 .element-text {
-	margin-bottom: 5px;
-	color: #8f1517;
+	color: #1A76D1;
 	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
 	border-bottom: dotted 2px #aaa9a9;
@@ -334,10 +332,10 @@
 	padding: 7px;
 }
 .green-color {
-	color: #8bc34a!important;
+	color: #1A76D1!important;
 }
 .green-background {
-	background-color: #8bc34a!important;
+	background-color: #1A76D1!important;
 }
 
 
