@@ -26,7 +26,7 @@
 	/* bottom: 0;*/
 	top:0;
 	padding: 0;
-	background-color: #343434;
+	background-color: #1A76D1;
 	overflow: hidden;
 }
 #myslide .carousel-caption-2 {
@@ -69,7 +69,7 @@
 	height: 13px;
 }
 #myslide .carousel-indicators .active {
-	background-color: #1A76D1
+	background-color: #343434
 }
 #myslide .carousel-caption .text {
 	height: 60px;
