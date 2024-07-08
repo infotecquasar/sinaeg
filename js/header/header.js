@@ -31,9 +31,9 @@ function carregarHeader(){
                                      result += "<li><a style='cursor: pointer;' href='legislacao.html'>Legislação</a></li>";
                                      result += "<li><a style='cursor: pointer;' href='maisInformacoes.html'>Mais Informações</a></li>";                           
                                      result += "<li><a style='cursor: pointer;' href='publicacoes.html'>Publicações</a></li>";                                    
-                                     result += "<li><a href='https://www.facebook.com/sinaegnacional/' target='_blank'><i class='icofont-facebook' style='font-size: 24px;'></i></a></li>";
-                                     result += "<li><a href='https://www.instagram.com/sinaeg.sindical/' target='_blank'><i class='icofont-instagram' style='font-size: 24px;'></i></a></li>";
-                                     result += "<li><a href='https://www.youtube.com/channel/UCmuFSF4f4tIhCyhUELOwm3g' target='_blank'><i class='icofont-youtube' style='font-size: 24px;'></i></a></li>";
+                                     result += "<li><a href='https://www.facebook.com/sinaegnacional/' title='Página no Facebook' alt='Página no Facebook' target='_blank'><i class='icofont-facebook' style='font-size: 24px;'></i></a></li>";
+                                     result += "<li><a href='https://www.instagram.com/sinaeg.sindical/' title='Página no Instagram' alt='Página no Instagram' target='_blank'><i class='icofont-instagram' style='font-size: 24px;'></i></a></li>";
+                                     result += "<li><a href='https://www.youtube.com/channel/UCmuFSF4f4tIhCyhUELOwm3g' title='Canal no Youtube' alt='Canal no Youtube' target='_blank'><i class='icofont-youtube' style='font-size: 24px;'></i></a></li>";
                                  result += "</ul>";                                           
                              result += "</nav>";
                           result += "</div>";
