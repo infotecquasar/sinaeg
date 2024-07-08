@@ -101,9 +101,15 @@
 
 		<script src="js/maps/googleMaps.js"></script>
 
-    <script src="js/slider/sliderFuncoes.js"></script>
+    	<script src="js/slider/sliderFuncoes.js"></script>
 
-    <script src="js/funcoes.js"></script>
+   		 <script src="js/funcoes.js"></script>
+
+		 <!-- Carrega o footer da pagina -->
+		<script src="js/footer/footer.js" ></script>
+
+		<!-- Carrega o header da pagina -->
+		<script src="js/header/header.js" ></script>
 </head>
 
 <body onload="initMap()">
@@ -123,124 +129,13 @@
         </div>
     </div>
 
-
-    <!-- Header Area -->
-		<header class="header" >
-			<!-- Topbar 
-			<div class="topbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-5 col-12">
-							
-							<ul class="top-link">
-								<li><a href="#">Sobre Nós</a></li>
-								<li><a href="#">Doutores</a></li>
-								<li><a href="#">Contato</a></li>
-								<li><a href="#">FAQ</a></li>
-							</ul>
-							
-						</div>
-						<div class="col-lg-6 col-md-7 col-12">
-							
-							<ul class="top-contact">
-								<li><i class="fa fa-phone"></i>+5561983007154</li>
-								<li><i class="fa fa-envelope"></i><a href="mailto:infotecquasar@gmail.com">infotecquasar@gmail.com</a></li>
-							</ul>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-			-->
-			<!-- End Topbar -->
-			<!-- Header Inner class="header-inner" para o menu 'grudar quando rolar a página' -->
-			<div style="-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,0.77); 
-			box-shadow: 0px 10px 13px -7px #000000, 10px 17px 20px -9px rgba(59,83,255,0.77);border-radius: 9px; background-color: #EDF2FF;">
-				<div class="container-fluid">
-					<div class="inner">
-						<div class="row">
-							<div class="col-lg-2 col-md-3 col-12">
-								<!-- Start Logo -->
-								<div class="logo">
-									<a href="index.htm">
-										<img src="img/logo-sinaeg.png" style="width: 100px; height: 80px;" alt="#">
-									</a>
-									&nbsp;&nbsp;&nbsp;
-									<span style="font-size: 18px; font-weight: bold;">
-										<a href="index.htm" style="font-weight: bold;">SINAEG</a>	
-
-									</span>
-								</div>
-
-								<!-- End Logo -->
-								<!-- Mobile Nav -->
-								<div class="mobile-nav"></div>
-								<!-- End Mobile Nav -->
-							</div>
-
-							<div class="col-lg-10 col-md-9 col-12">
-								<!-- Main Menu -->
-								<div class="main-menu">
-									<nav class="navigation">
-										<ul class="nav menu">
-											<!--
-											<li class="active"><a href="#">Início <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="index.html">Página 1</a></li>
-												</ul>
-											</li>
-											
-											<li><a href="#">Menu 1 </a></li>
-											<li><a href="#">Menu 2 </a></li>
- 											-->
-
-											<!-- <li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="404.html">404 Error</a></li>
-												</ul>
-											</li> 
-											<li><a href="#">Menu 3 <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="blog-single.html">Sub Menu 3</a></li>
-												</ul>
-											</li> 
-											-->
-											<li><a style="cursor: pointer;" href="index.htm">Início</a></li>
-											<li><a style="cursor: pointer;" href="institucional.html">Institucional</a></li>
-											<li><a style="cursor: pointer;" href="noticias.html" >Notícias</a></li>
-											<li><a style="cursor: pointer;" href="legislacao.html" >Legislação</a></li>			
-											<li><a style="cursor: pointer;" href="maisInformacoes.html">Mais Informações</a></li>								
-											<li><a style="cursor: pointer;" href="publicacoes.html">Publicações</a></li>
-
-											<li><a href="https://www.facebook.com/sinaegnacional/"   target="_blank"><i
-												class="icofont-facebook" style="font-size: 24px;"></i></a></li>
-											<li><a href="https://www.instagram.com/sinaeg.sindical/" target="_blank"><i
-												class="icofont-instagram" style="font-size: 24px;"></i></a></li>
-											<li><a href="https://www.youtube.com/channel/UCmuFSF4f4tIhCyhUELOwm3g"
-											target="_blank"><i class="icofont-youtube" style="font-size: 24px;"></i></a></li>
-											
-										</ul>
-									</nav>
-								</div>
-								<!--/ End Main Menu -->
-							</div>
-
-							 <div class="col-lg-12 col-12" style="margin-top: -10px !important; display: flex;
-							 justify-content: center; 
-							 align-items: center">
-								<div class="get-quote">
-									<span style="color: black; font-weight: bold;">Sindicato Nacional dos Arquitetos, Economistas, Engenheiros, Estatísticos e Geólogos do Poder Executivo Federal</span> 
-
-								</div>
-							</div> 
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Header Inner -->
-		</header>
-		<!-- End Header Area -->
-		<br/>
+	<!-- Carrega o header-->
+	<div id="idHeader"></div>							
+	<script>				
+			carregarHeader();							
+	</script>
+    
+	<br/>
 
 
     <div class="container item-page page-cards pb-80 " itemscope itemtype="https://schema.org/Blog">
@@ -374,43 +269,11 @@
 
     </div>
 
-    <!-- Footer Area -->
-		<footer id="footer" tabindex="5" class="footer ">
-			<!-- Footer Top -->
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">						
-						<div class="col-lg-6 col-md-12 col-12">
-							<div class="single-footer">
-								<h2>CSPB/SINAEG <br/>
-									SCS, Quadra 01, Bloco K, Ed. Denasa <br/>
-									 1 andar, DF, 70398-900</h2>
-									<div id="map" style="height: 400px;"></div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<!--/ End Footer Top -->
-			<!-- Copyright -->
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-12">
-							<div class="copyright-content">
-								<p>© Copyright 2024 |  All Rights Reserved by <a href="http://sinaeg.org.br" target="_blank">sinaeg</a> </p>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<!--/ End Copyright -->
-		</footer>
-		<!--/ End Footer Area -->
-
-
+	<div id="idFooter"></div>							
+	<script>				
+			carregarFooter();							
+	</script>
+	
 
 
 </body>
