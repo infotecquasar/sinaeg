@@ -22,9 +22,6 @@ function adicionarNoticias(idDivNoticia,linkPaginaHtml,fotoNoticia,tituloDaNotic
                          result += "</div>";
                 result += "</a>";
                        result += "<div class='element-date green-color'>";
-                         result += "<span style='float: left;'>"+corpoTituloDaNoticia+"</span>";
-                       result += "</div>";
-                       result += "<div class='element-date green-color'>";
                            result += "<span style='float: left;'>"+dataNoticia+"</span>";
                            result += "<a class='nolink red-color' href='noticias16.html'><span style='float: right;'>Leia mais</span></a>";
                        result += "</div>";
