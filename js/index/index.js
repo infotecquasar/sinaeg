@@ -25,7 +25,7 @@ function adicionarNoticiasDestaqueSecundarias(idDivNoticia,linkPaginaHtml,fotoNo
     
 }
 
-function adicionarNoticiasDestaquePrimarias(idDivNoticia,linkPaginaHtml,fotoNoticia,tituloDaNoticia,corpoTituloDaNoticia,active){
+function adicionarNoticiasDestaquePrimarias(idDivNoticia,linkPaginaHtml,fotoNoticia,tituloDaNoticia,corpoTituloDaNoticia){
     var outputNoticia = document.getElementById(idDivNoticia);
 
         var result =  "<div class='carousel-caption d-md-block titulo-banner'>";
