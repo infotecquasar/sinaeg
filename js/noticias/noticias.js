@@ -27,6 +27,7 @@ function adicionarNoticias(idDivNoticia,linkPaginaHtml,fotoNoticia,tituloDaNotic
                        result += "</div>";
             result += "</div>";							
     result += "</div>";
+    result += "<br/>";
 
     outputNoticia.innerHTML = result;
 
