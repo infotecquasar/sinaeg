@@ -1,0 +1,38 @@
+[
+    {
+       "linkPaginaHtml": "noticias18.html",
+	   "fotoNoticia" :	"img/noticias/noticias18/fotos1.jpg",
+	   "tituloDaNoticia":	"10.07.2024 SINAEG e SPU-MGI Realizam Reunião",
+	   "corpoTituloDaNoticia" :"📢 Notícia | SINAEG e SPU-MGI Realizam Reunião para Fortalecer Parceria e Valorizar Servidores da ERCE"
+    },
+    {
+        "linkPaginaHtml": "noticias17.html",
+        "fotoNoticia" :	"img/noticias/fotos2/fotos17.jpg",
+        "tituloDaNoticia":	"04.07.2024 - Novo Acordo com Governo",
+        "corpoTituloDaNoticia" :" 📢 Notícia | SINAEG Assina Novo Acordo com Governo: Um Passo nas Negociações"
+    },
+    {
+        "linkPaginaHtml": "noticias16.html",
+        "fotoNoticia" : "img/noticias/fotos2/fotos16.jpg",
+        "tituloDaNoticia" : "03.07.2024 - Reposição Salarial Assinada!",
+        "corpoTituloDaNoticia" : "📢 Notícia | Vitória dos Servidores da ERCE: Reposição Salarial Assinada!⭐"
+    },
+    {
+        "linkPaginaHtml": "noticias15.html",
+        "fotoNoticia" : "img/noticias/fotos2/fotos15.jpg",
+        "tituloDaNoticia" : "19.06.2024 - Avanços nas Negociações Salariais!",
+        "corpoTituloDaNoticia" : "📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*"
+    },
+    {
+        "linkPaginaHtml": "noticias14.html",
+        "fotoNoticia" : "img/noticias/fotos2/fotos13.jpg",
+        "tituloDaNoticia" : "25.06.2024 - Reforma Tributária na Câmara dos Deputados",
+        "corpoTituloDaNoticia" : "Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados"
+    },
+    {
+        "linkPaginaHtml": "noticias13.html",
+        "fotoNoticia" : "img/noticias/fotos2/fotos12.jpg",
+        "tituloDaNoticia" : "21.06.2024 - 📢 *ATENÇÃO, SINAEG e CONDSEF",
+        "corpoTituloDaNoticia" : "SINAEG e CONDSEF protocolam Complementação de Informações Técnicas na SRT/MGI"
+    }
+]
