@@ -143,7 +143,7 @@ function montarNoticias(noticia,index) {
             result += "</a>";
                 result += "<div class='element-date green-color'>";
                     result += "<span style='float: left;'>"+dataNoticia+"</span>";
-                    result += "<a class='nolink red-color' href='noticias16.html'><span style='float: right;'>Leia mais</span></a>";
+                    result += "<a class='nolink red-color' href='"+linkPaginaHtml+"'><span style='float: right;'>Leia mais</span></a>";
                 result += "</div>";
         result += "</div>";							
     result += "</div>";
