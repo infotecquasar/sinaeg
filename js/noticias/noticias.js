@@ -1,5 +1,13 @@
 const noticias = [
     {
+        "linkPaginaHtml": "noticias19.html",
+        "fotoNoticia" :	"img/noticias/noticias19/fotos1.jpg",
+        "tituloDaNoticia":	" - SINAEG Participa de Evento do Corecon-DF",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Participa de Evento do Corecon-DF sobre Financiamento Público Bancário para o Desenvolvimento Regional",
+        "dataNoticia": "11.07.2024"
+    },
+    
+    {
        "linkPaginaHtml": "noticias18.html",
        "fotoNoticia" :	"img/noticias/noticias18/fotos1.jpg",
        "tituloDaNoticia":	" - SINAEG e SPU-MGI Realizam Reunião",
