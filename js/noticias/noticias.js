@@ -9,7 +9,7 @@ const noticias = [
     },
     
     {
-        "linkPaginaHtml": "noticias19.html",
+        "linkPaginaHtml": "./html/noticias/noticias19/noticias19.html",
         "fotoNoticia" :	"img/noticias/noticias19/fotos1.jpg",
         "tituloDaNoticia":	" - SINAEG Participa de Evento do Corecon-DF",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Participa de Evento do Corecon-DF sobre Financiamento Público Bancário para o Desenvolvimento Regional",
