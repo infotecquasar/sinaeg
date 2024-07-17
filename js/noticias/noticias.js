@@ -26,8 +26,8 @@ const noticias = [
        "tipo":"noticia"
     },
     {
-        "linkPaginaHtml": "noticias17.html",
-        "fotoNoticia" :	"img/noticias/fotos2/fotos17.jpg",
+        "linkPaginaHtml": "noticias/noticia17/noticia17.html",
+        "fotoNoticia" :	"noticias/noticia17/foto1.jpg",
         "tituloDaNoticia":	" - Novo Acordo com Governo",
         "corpoTituloDaNoticia" :" 📢 Notícia | SINAEG Assina Novo Acordo com Governo: Um Passo nas Negociações",
         "dataNoticia": "04.07.2024",
