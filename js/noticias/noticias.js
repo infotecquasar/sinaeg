@@ -9,8 +9,8 @@ const noticias = [
     },
     
     {
-        "linkPaginaHtml": "noticias/noticias19/noticia.html",
-        "fotoNoticia" :	"noticias/noticias19/foto1.jpg",
+        "linkPaginaHtml": "noticias/noticia19/noticia19.html",
+        "fotoNoticia" :	"noticias/noticia19/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG Participa de Evento do Corecon-DF",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Participa de Evento do Corecon-DF sobre Financiamento Público Bancário para o Desenvolvimento Regional",
         "dataNoticia": "11.07.2024",
@@ -18,8 +18,8 @@ const noticias = [
     },
     
     {
-       "linkPaginaHtml": "noticias18.html",
-       "fotoNoticia" :	"img/noticias/noticias18/fotos1.jpg",
+       "linkPaginaHtml": "noticias/noticia18/noticia18.html",
+       "fotoNoticia" :	"noticias/noticia18/foto1.jpg",
        "tituloDaNoticia":	" - SINAEG e SPU-MGI Realizam Reunião",
        "corpoTituloDaNoticia" :"📢 Notícia | SINAEG e SPU-MGI Realizam Reunião para Fortalecer Parceria e Valorizar Servidores da ERCE",
        "dataNoticia": "10.07.2024",
