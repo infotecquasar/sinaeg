@@ -1,10 +1,20 @@
 const noticias = [
     {
+        "linkPaginaHtml": "publicacoes.html",
+        "fotoNoticia" :	"img/publicacoes/publicacoes1/fotos1.jpg",
+        "tituloDaNoticia":	" - DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
+        "corpoTituloDaNoticia" : "📢 Publicação | A DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
+        "dataNoticia": "15.07.2024",
+        "tipo":"publicacao"
+    },
+    
+    {
         "linkPaginaHtml": "noticias19.html",
         "fotoNoticia" :	"img/noticias/noticias19/fotos1.jpg",
         "tituloDaNoticia":	" - SINAEG Participa de Evento do Corecon-DF",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Participa de Evento do Corecon-DF sobre Financiamento Público Bancário para o Desenvolvimento Regional",
-        "dataNoticia": "11.07.2024"
+        "dataNoticia": "11.07.2024",
+        "tipo":"noticia"
     },
     
     {
@@ -12,42 +22,48 @@ const noticias = [
        "fotoNoticia" :	"img/noticias/noticias18/fotos1.jpg",
        "tituloDaNoticia":	" - SINAEG e SPU-MGI Realizam Reunião",
        "corpoTituloDaNoticia" :"📢 Notícia | SINAEG e SPU-MGI Realizam Reunião para Fortalecer Parceria e Valorizar Servidores da ERCE",
-       "dataNoticia": "10.07.2024"
+       "dataNoticia": "10.07.2024",
+       "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias17.html",
         "fotoNoticia" :	"img/noticias/fotos2/fotos17.jpg",
         "tituloDaNoticia":	" - Novo Acordo com Governo",
         "corpoTituloDaNoticia" :" 📢 Notícia | SINAEG Assina Novo Acordo com Governo: Um Passo nas Negociações",
-        "dataNoticia": "04.07.2024"
+        "dataNoticia": "04.07.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias16.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos16.jpg",
         "tituloDaNoticia" : " - Reposição Salarial Assinada!",
         "corpoTituloDaNoticia" : "📢 Notícia | Vitória dos Servidores da ERCE: Reposição Salarial Assinada!⭐",
-        "dataNoticia": "03.07.2024"
+        "dataNoticia": "03.07.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias15.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos15.jpg",
         "tituloDaNoticia" : " - Avanços nas Negociações Salariais!",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
-        "dataNoticia": "19.06.2024"
+        "dataNoticia": "19.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias14.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos13.jpg",
         "tituloDaNoticia" : " - Reforma Tributária na Câmara",
         "corpoTituloDaNoticia" : "Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados",
-        "dataNoticia": "25.06.2024"
+        "dataNoticia": "25.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias13.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos12.jpg",
         "tituloDaNoticia" : " - 📢 *ATENÇÃO, SINAEG e CONDSEF",
         "corpoTituloDaNoticia" : "SINAEG e CONDSEF protocolam Complementação de Informações Técnicas na SRT/MGI",
-        "dataNoticia": "21.06.2024"
+        "dataNoticia": "21.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias12.html",
@@ -61,28 +77,32 @@ const noticias = [
         "fotoNoticia" : "img/noticias/fotos2/fotos14.jpg",
         "tituloDaNoticia" : " - Assembleia Extraordinária do SINAEG",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, SERVIDORES DO SINAEG!*,transferência da Assembleia Extraordinária do SINAEG para 19 de Junho*",
-        "dataNoticia":"19.06.2024"
+        "dataNoticia":"19.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias10.html",
         "fotoNoticia" : "img/noticias/noticias10/fotos1.jpg",
         "tituloDaNoticia" : " - Notícia de Última Hora!*",
         "corpoTituloDaNoticia" : "📢 *Notícia de Última Hora!*",
-        "dataNoticia":"12.06.2024"
+        "dataNoticia":"12.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias9.html",
         "fotoNoticia" : "img/noticias/noticias9/fotos1.jpg",
         "tituloDaNoticia" : " - APOIO DA ASSEMAE AO SINAEG",
         "corpoTituloDaNoticia" : "📢 *Proposta de Moção - APOIO DA ASSEMAE AO SINAEG*",
-        "dataNoticia":"10.06.2024"
+        "dataNoticia":"10.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias8.html",
         "fotoNoticia" : "img/noticias/noticias8/fotos1.jpg",
         "tituloDaNoticia" : " - SINAEG REPUDIA DESVALORIZAÇÃO",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, SINAEG REPUDIA DESVALORIZAÇÃO DO GOVERNO E ENQUADRAMENTO INJUSTO A SUPORTE ADMINISTRATIVO",
-        "dataNoticia":"10.05.2024"
+        "dataNoticia":"10.05.2024",
+        "tipo":"noticia"
     }
 ];
 
@@ -103,17 +123,18 @@ function carregarNoticias() {
     if(divNoticias !== null){
         var result = "<div class='row extra'>";
         noticias.forEach((noticia,index) => { 
-        
-            result += "<div class='col-12 col-xl-6'>";   
-            for(var i = 0 ; i <=1 ; i++){                  
-                    if(i === 0 && index % 2 === 0) {
-                        result += montarNoticias(noticia,index);
-                    } else if(i === 1 && index % 2 !== 0) {
-                        result += montarNoticias(noticia,index);
-                    }                                                              
-                }  
-            result += "</div>";
-        
+            let tipo = `${noticia.tipo}`;
+            if(tipo === 'noticia'){
+                result += "<div class='col-12 col-xl-6'>";   
+                for(var i = 0 ; i <=1 ; i++){                  
+                        if(i === 0 && index % 2 === 0) {
+                            result += montarNoticias(noticia,index);
+                        } else if(i === 1 && index % 2 !== 0) {
+                            result += montarNoticias(noticia,index);
+                        }                                                              
+                    }  
+                result += "</div>";
+            }
         });
         result += "</div>";
 
