@@ -187,18 +187,20 @@ function carregarNoticias() {
 
 }
 
-function montarArtigos(noticia,index) {
+function montarArtigos(artigo,index) {
     
-    let linkPaginaHtml = `${noticia.linkPaginaHtml}`;
-    let fotoNoticia = `${noticia.fotoNoticia}`;
-    let tituloDaNoticia = `${noticia.tituloDaNoticia}`;
-    let corpoTituloDaNoticia = `${noticia.corpoTituloDaNoticia}`;
-    let dataNoticia = `${noticia.dataNoticia}`;
+    let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
+    let fotoNoticia = `${artigo.fotoNoticia}`;
+    let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
+    let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
+    let dataNoticia = `${artigo.dataNoticia}`;
+
+    const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
     
     var result = "<div id='idNoticia"+index+"'></div>";                            
     result +=  "<div class='row element'>";						
         result += "<div class='col-auto col-destaques-resp'>";
-        result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"'>";
+        result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
             result += "<img class='img-destaque'";
                 result += "src='"+fotoNoticia+"'";
                 result += "alt='"+corpoTituloDaNoticia+"'";
@@ -209,14 +211,14 @@ function montarArtigos(noticia,index) {
         result += "</a>";
         result += "</div>";
         result += "<div class='col box-index-noticia'>";
-            result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"'>";
+            result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
                     result += "<div class='box-index-noticia-titulo'>";
                             result += corpoTituloDaNoticia;
                     result += "</div>";
             result += "</a>";
                 result += "<div class='element-date green-color'>";
                     result += "<span style='float: left;'>"+dataNoticia+"</span>";
-                    result += "<a class='nolink red-color' href='"+linkPaginaHtml+"'><span style='float: right;'>Leia mais</span></a>";
+                    result += "<a class='nolink red-color' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'><span style='float: right;'>Leia mais</span></a>";
                 result += "</div>";
         result += "</div>";							
     result += "</div>";
@@ -240,13 +242,14 @@ function carregarNoticiasIndex(){
                             result += "<li data-target='#myslide' data-slide-to='2' class=''></li>";
                         result += "</ol>";                       
                         result += "<div class='carousel-inner'>";                                              
-                        seisPrimeirasNoticias.forEach((noticia,index) => {                            
+                        seisPrimeirasNoticias.forEach((artigo,index) => {                            
                             if(index >= 0 && index <=2 ){
-                                let linkPaginaHtml = `${noticia.linkPaginaHtml}`;
-                                let fotoNoticia = `${noticia.fotoNoticia}`;
-                                let tituloDaNoticia = `${noticia.tituloDaNoticia}`;
-                                let corpoTituloDaNoticia = `${noticia.corpoTituloDaNoticia}`;
-                                let dataNoticia = `${noticia.dataNoticia}`;
+                                const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
+                                let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
+                                let fotoNoticia = `${artigo.fotoNoticia}`;
+                                let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
+                                let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
+                                let dataNoticia = `${artigo.dataNoticia}`;
                                 let active = index === 0 ? 'active' : '';
                                 result += "<div class='carousel-item  "+active+"'>";					
                                     result += "<div id='idNoticiaPrimaria"+index+"'></div>";							                                   
@@ -255,7 +258,7 @@ function carregarNoticiasIndex(){
                                         result += corpoTituloDaNoticia; 
                                         result += "</div>";
                                     result += "</div>";
-                                    result += "<a href='"+linkPaginaHtml+"' target='_blank'>";
+                                    result += "<a href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"' target='_blank'>";
                                         result += "<div class='carousel-caption carousel-caption-alerta d-md-block text-left'>";
                                             result += "<div class='text-alerta'> "+dataNoticia+tituloDaNoticia+" </div>";
                                         result += "</div>";
@@ -274,18 +277,19 @@ function carregarNoticiasIndex(){
                 
               
                 result += "<div class='col-xl-4 p-xl-1 notices'>";
-                    seisPrimeirasNoticias.forEach((noticia,index) => {    
+                    seisPrimeirasNoticias.forEach((artigo,index) => {    
                         if(index > 2) {
-                            let linkPaginaHtml = `${noticia.linkPaginaHtml}`;
-                            let fotoNoticia = `${noticia.fotoNoticia}`;
-                            let tituloDaNoticia = `${noticia.tituloDaNoticia}`;
-                            let corpoTituloDaNoticia = `${noticia.corpoTituloDaNoticia}`;
-                            let dataNoticia = `${noticia.dataNoticia}`;
+                            const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
+                            let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
+                            let fotoNoticia = `${artigo.fotoNoticia}`;
+                            let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
+                            let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
+                            let dataNoticia = `${artigo.dataNoticia}`;
                             result += "<div id='idNoticiaSecundaria"+index+"'></div>";
                             	
                             
 
-                            result += "<a class='nolink' target='_blank' href='"+linkPaginaHtml+"'>";
+                            result += "<a class='nolink' target='_blank' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
                                 result += "<div class='notice-block' style='border: 1px solid #1A76D1;padding: 4px;'>";
                                     result +=  "<div class='notice-title'> "+dataNoticia+tituloDaNoticia+"</div>";
                                     result +=   "<div class='col-12'>";
@@ -316,5 +320,53 @@ function carregarNoticiasIndex(){
         
         divNoticiasIndex.innerHTML = result;
     }           
+}
+
+
+// Function to get query parameters from the URL
+function getQueryParams() {
+    const params = {};
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    
+    urlParams.forEach((value, key) => {
+        params[key] = value;
+    });
+
+    return params;
+}
+
+// Function to display the received parameter
+function displayParameter() {
+    const params = getQueryParams();
+
+    const jsonArtigo = params.artigo;
+
+    
+    // Decode URI component and parse JSON
+    const artigo = JSON.parse(decodeURIComponent(jsonArtigo));
+     
+    const divCorpoTituloDaNoticia = document.getElementById('corpoTituloDaNoticia'); 
+    var result = "<h1 class='section-1-title text-center article-limit-width'>";
+    result += artigo.corpoTituloDaNoticia;
+    result += "</h1>" 
+    divCorpoTituloDaNoticia.innerHTML = result;
+
+
+    const divDataNoticia = document.getElementById('dataNoticia'); 
+    var result = "<div>";
+    result += "Publicado: " + artigo.dataNoticia;
+    result += "</div>" 
+    divDataNoticia.innerHTML = result;
+
+    const divFotoNoticia = document.getElementById('fotoNoticia'); 
+    const srcFoto =  "../../" + artigo.fotoNoticia;
+    var result = "<div class='col-md-8'>";
+            result += "<img class='w-100' src='"+srcFoto+"'";
+            result += "alt='"+artigo.tituloDaNoticia+"' />"
+            result += "<div class='text-legenda-noticia' >Reprodução/SINAEG</div>";
+        result += "</div>";	
+    divFotoNoticia.innerHTML = result;
+
 }
 

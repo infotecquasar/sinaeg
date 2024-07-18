@@ -65,10 +65,12 @@
 
 	<script src="../../js/jquery.scrollUp.min.js" ></script>
 
+	<!-- adiciona link de noticias na index.htm e noticias.html e carrega parametros-->
+	<script src="../../js/artigos/artigos.js" ></script>
 
 </head>
 
-<body onload="initMap()">
+<body onload="initMap();displayParameter()">
 
 	<!-- Preloader -->
 	<div class="preloader">
@@ -99,26 +101,23 @@
 		<!-- container -->
 		<div class="container">
 
-			<h1 class="section-1-title text-center article-limit-width">📢 Publicação | Carta Aberta ao Presidente Lula
-				⭐</h1>
+			<!-- monta o corpo da noticia -->	
+			<div id="corpoTituloDaNoticia" ></div>
 		
 			<!-- share -->
 			<div class="share text-center article-limit-width">
-				<span style="color: #1A76D1; font-weight: bold;"><i class="far fa-clock"></i> Públicado: 20/06/2024</span>&nbsp;&nbsp;
-
+				<span style="color: #1A76D1; font-weight: bold;">
+					<i class="far fa-clock"></i> 
+					<!-- monta a data da noticia -->			 
+					<div id="dataNoticia" ></div>
+				</span>&nbsp;&nbsp;
 			</div>
 
 
 			<!--/ share -->
 			<div class="col-md-12" align="center">
 				<br>
-				<div class="col-md-8">
-					<!-- <div class="text-alerta-noticia"></div> -->
-					<img class="w-100"
-						src="../../publicacoes/publicacao2/foto1.jpg"
-						alt="Carta Aberta ao Presidente Lula" />
-					<div class="text-legenda-noticia">Reprodução/SINAEG</div>
-				</div>				
+				<div id="fotoNoticia"></div>					
 			</div>
 			<!-- bar -->
 			<div class="bar article-limit-width"></div>

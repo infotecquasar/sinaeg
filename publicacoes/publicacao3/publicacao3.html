@@ -65,10 +65,12 @@
 
 	<script src="../../js/jquery.scrollUp.min.js" ></script>
 
+	<!-- adiciona link de noticias na index.htm e noticias.html e carrega parametros-->
+	<script src="../../js/artigos/artigos.js" ></script>
 
-</head>
+</head> 
 
-<body onload="initMap()">
+<body onload="initMap();displayParameter()">
 
 	<!-- Preloader -->
 	<div class="preloader">
@@ -98,13 +100,16 @@
 	<div>
 		<!-- container -->
 		<div class="container">
-
-			<h1 class="section-1-title text-center article-limit-width">📢 Publicação | A DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO
-				⭐</h1>
+			<!-- monta o corpo da noticia -->	
+			<div id="corpoTituloDaNoticia" ></div>
 		
 			<!-- share -->
 			<div class="share text-center article-limit-width">
-				<span style="color: #1A76D1; font-weight: bold;"><i class="far fa-clock"></i> Públicado: 15/07/2024</span>&nbsp;&nbsp;
+				<span style="color: #1A76D1; font-weight: bold;">
+					<i class="far fa-clock"></i> 
+					<!-- monta a data da noticia -->			 
+					<div id="dataNoticia" ></div>
+				</span>&nbsp;&nbsp;
 
 			</div>
 
@@ -112,13 +117,7 @@
 			<!--/ share -->
 			<div class="col-md-12" align="center">
 				<br>
-				<div class="col-md-8">
-					<!-- <div class="text-alerta-noticia"></div> -->
-					<img class="w-100"
-						src="../../publicacoes/publicacao3/foto1.jpg"
-						alt="A DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO" />
-					<div class="text-legenda-noticia">Reprodução/SINAEG</div>
-				</div>				
+				<div id="fotoNoticia"></div>					
 			</div>
 			<!-- bar -->
 			<div class="bar article-limit-width"></div>

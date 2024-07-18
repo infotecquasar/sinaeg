@@ -65,10 +65,12 @@
 
 	<script src="../../js/jquery.scrollUp.min.js" ></script>
 
+	<!-- adiciona link de noticias na index.htm e noticias.html e carrega parametros-->
+	<script src="../../js/artigos/artigos.js" ></script>
 
 </head>
 
-<body onload="initMap()">
+<body onload="initMap();displayParameter()">
 
 	<!-- Preloader -->
 	<div class="preloader">
@@ -99,33 +101,32 @@
 		<!-- container -->
 		<div class="container">
 
-			<h1 class="section-1-title text-center article-limit-width">📢 Publicação | AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA
-		
-			<!-- share -->
+			<!-- mota o corpo da noticia -->
+			<div id="corpoTituloDaNoticia" ></div>
+			
+			
 			<div class="share text-center article-limit-width">
-				<span style="color: #1A76D1; font-weight: bold;"><i class="far fa-clock"></i> Públicado: 14/06/2024</span>&nbsp;&nbsp;
-
+				<span style="color: #1A76D1; font-weight: bold;">
+					<i class="far fa-clock"></i>	
+					<!-- monta a data da noticia -->			 
+					 <div id="dataNoticia" ></div>
+					</span>&nbsp;&nbsp;
 			</div>
 
 
 			<!--/ share -->
 			<div class="col-md-12" align="center">
 				<br>
-				<div class="col-md-8">
-					<!-- <div class="text-alerta-noticia"></div> -->
-					<img class="w-100"
-						src="../../publicacoes/publicacao1/foto1.jpg"
-						alt="AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA" />
-					<div class="text-legenda-noticia" style="font-size: 14px;">Reprodução/SINAEG</div>
-				</div>				
+				<div id="fotoNoticia"></div>							
 			</div>
+			
 			<!-- bar -->
 			<div class="bar article-limit-width"></div>
 			<!--/bar -->
 			<!-- article text -->
-			<div class="article-text article-limit-width" style="width: 100% !important;">
+			<div class="article-text article-limit-width">
 				<p><b>SINAEG</b></p>
-				<p style="color: black; font-size: 14px;width: 100% !important;" >	
+				<p style="color: black;" >	
 						<br/>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						O termo "cidades esponjas" refere-se a uma abordagem na engenharia pública e no planejamento urbano que busca projetar áreas urbanas de forma a lidar de maneira mais eficaz com problemas relacionados à água, como enchentes, inundações e gerenciamento de águas pluviais. 
@@ -188,6 +189,7 @@
 					
 						<span style="color: red;">2. Melhoria da Qualidade da Água </span> 
 						<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Essas técnicas permitem a filtração natural da água da chuva, reduzindo a poluição antes que a água chegue aos corpos hídricos. Elementos como zonas úmidas construídas e biovaletas ajudam a remover contaminantes, melhorando a qualidade da água e beneficiando os ecossistemas locais.
 						
 						
@@ -196,15 +198,14 @@
 						<span style="color: red;">3. Aumento da Resiliência Urbana </span> 
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						A infraestrutura das cidades esponjas melhora a capacidade de adaptação e resposta a eventos climáticos extremos, como tempestades e enchentes. Isso é particularmente importante para o Rio Grande do Sul, que enfrenta desafios climáticos frequentes. A resiliência urbana é aumentada, protegendo tanto a infraestrutura quanto os residentes.
 						
 						<br/>
 						
 						<span style="color: red;">4. Benefícios Ecológicos</span>
 						<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						A integração de áreas verdes urbanas promove a biodiversidade, cria habitats para a vida selvagem e melhora o microclima local. Parques e jardins urbanos contribuem para a redução das ilhas de calor, além de proporcionar espaços recreativos e de lazer para a população.
 						
 						
@@ -213,9 +214,7 @@
 						<span style="color: red;">5. Economia de Recursos</span>
 
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Ao incorporar sistemas de coleta e reutilização da água da chuva, como cisternas e reservatórios subterrâneos, as cidades esponjas ajudam a conservar recursos hídricos. Isso é especialmente útil em períodos de seca, garantindo uma fonte adicional de água para usos não potáveis.
 						
 						<br/>
@@ -223,9 +222,7 @@
 						<span style="color: red;">6. Melhoria da Saúde Pública</span>
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						A redução das inundações e da poluição hídrica contribui para a melhoria da saúde pública, diminuindo a incidência de doenças transmitidas pela água. Áreas verdes e espaços de lazer também promovem a atividade física e o bem-estar mental dos moradores.
 						
 						
@@ -234,9 +231,7 @@
 						<span style="color: red;">7. Valorização Imobiliária</span>
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						A infraestrutura verde e a melhoria da qualidade de vida nas cidades esponjas podem levar à valorização dos imóveis. Áreas mais seguras, agradáveis e esteticamente atraentes tendem a atrair investimentos e moradores, estimulando o desenvolvimento econômico local.
 						
 						<br/>
@@ -244,21 +239,15 @@
 						<span style="color: red;">8. Integração Comunitária </span>
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Projetos de cidades esponjas frequentemente envolvem a participação comunitária, educando os moradores sobre a importância da gestão sustentável da água e criando um senso de responsabilidade compartilhada. Isso fortalece a coesão social e o engajamento cívico.
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Implementar a técnica das cidades esponjas na reconstrução do Rio Grande do Sul pode transformar os desafios das inundações em oportunidades para criar cidades mais sustentáveis, resilientes e habitáveis. Além de mitigar os efeitos das enchentes, essa abordagem oferece uma série de benefícios econômicos, ecológicos e sociais que podem contribuir para um desenvolvimento urbano mais equilibrado e sustentável.
 						
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						Neste contexto, A engenharia pública pode ser decisiva na reconstrução do Rio Grande do Sul em diversos pontos críticos, especialmente após as recentes tragédias de inundação. Sua atuação é fundamental para garantir a segurança, a funcionalidade e a resiliência das infraestruturas e comunidades afetadas. Aqui estão algumas áreas chave onde a engenharia pública pode fazer a diferença:
 						
 						<br/>
@@ -272,7 +261,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							• Zoneamento inteligente: Implementar políticas de zoneamento que incentivem a criação de áreas verdes e de retenção de água.
 						<br/>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
 						<span style="color: red;">2. Infraestrutura de Controle de Cheias</span>
 							<br/>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -290,7 +279,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							• Restaurar ecossistemas naturais: Reabilitar pântanos, zonas úmidas e cursos d'água naturais que atuam como amortecedores naturais de enchentes.
 							<br/>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							
 						<span style="color: red;">4. Infraestrutura de Resiliência</span>
 							<br/>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -299,7 +288,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							• Edifícios públicos: Projetar e construir escolas, hospitais e outros edifícios públicos que possam servir como abrigos seguros durante emergências.
 							<br/>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+								
 						<span style="color: red;">5. Gestão de Recursos Hídricos</span>
 							<br/>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -317,7 +306,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							• Mapeamento e modelagem: Utilizar tecnologias avançadas de mapeamento e modelagem para prever impactos de inundações e planejar ações mitigadoras.
 							<br/>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+							
 						<span style="color: red;">7. Engajamento Comunitário e Educação</span>
 							<br/>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
