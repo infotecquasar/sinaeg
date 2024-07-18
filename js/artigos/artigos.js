@@ -42,7 +42,7 @@ const artigos = [
         "tipo":"noticia"
     },
     {
-        "linkPaginaHtml": "noticias15.html",
+        "linkPaginaHtml": "noticias/noticia15/noticia15.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos15.jpg",
         "tituloDaNoticia" : " - Avanços nas Negociações Salariais!",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
