@@ -1,7 +1,7 @@
-const noticias = [
+const artigos = [
     {
-        "linkPaginaHtml": "publicacoes.html",
-        "fotoNoticia" :	"img/publicacoes/publicacoes1/fotos1.jpg",
+        "linkPaginaHtml": "publicacoes/publicacao3/publicacao3.html",
+        "fotoNoticia" :	"publicacoes/publicacao3/foto1.jpg",
         "tituloDaNoticia":	" - DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
         "corpoTituloDaNoticia" : "📢 Publicação | A DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
         "dataNoticia": "15.07.2024",
@@ -34,8 +34,8 @@ const noticias = [
         "tipo":"noticia"
     },
     {
-        "linkPaginaHtml": "noticias16.html",
-        "fotoNoticia" : "img/noticias/fotos2/fotos16.jpg",
+        "linkPaginaHtml": "noticias/noticia16/noticia16.html",
+        "fotoNoticia" :	"noticias/noticia16/foto1.jpg",
         "tituloDaNoticia" : " - Reposição Salarial Assinada!",
         "corpoTituloDaNoticia" : "📢 Notícia | Vitória dos Servidores da ERCE: Reposição Salarial Assinada!⭐",
         "dataNoticia": "03.07.2024",
@@ -103,38 +103,82 @@ const noticias = [
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, SINAEG REPUDIA DESVALORIZAÇÃO DO GOVERNO E ENQUADRAMENTO INJUSTO A SUPORTE ADMINISTRATIVO",
         "dataNoticia":"10.05.2024",
         "tipo":"noticia"
+    },
+    {
+        "linkPaginaHtml": "publicacoes/publicacao2/publicacao2.html",
+        "fotoNoticia" :	"publicacoes/publicacao2/foto1.jpg",
+        "tituloDaNoticia":	" - Carta Aberta ao Presidente Lula",
+        "corpoTituloDaNoticia" : "📢 Publicação | Carta Aberta ao Presidente Lula",
+        "dataNoticia": "20.06.2024",
+        "tipo":"publicacao"
+    }
+    ,
+    {
+        "linkPaginaHtml": "publicacoes/publicacao1/publicacao1.html",
+        "fotoNoticia" :	"publicacoes/publicacao1/foto1.jpg",
+        "tituloDaNoticia":	" - AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA",
+        "corpoTituloDaNoticia" : "📢 Publicação | AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA",
+        "dataNoticia": "14.06.2024",
+        "tipo":"publicacao"
     }
 ];
 
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-   
+document.addEventListener('DOMContentLoaded', function() { 
     carregarNoticiasIndex();
-    carregarNoticias();      
 });
 
+
+function carregarPublicacoes() {
+
+    const divPublicacoes = document.getElementById('divPublicacoes');
+
+    if(divPublicacoes !== null){
+        
+        const somentePublicacoes = artigos.filter(artigo => artigo.tipo === "publicacao");
+        
+        var result = "<div class='row extra'>";
+        somentePublicacoes.forEach((noticia,index) => {           
+            result += "<div class='col-12 col-xl-6'>";   
+            for(var i = 0 ; i <=1 ; i++){                  
+                    if(i === 0 && index % 2 === 0) {
+                        result += montarArtigos(noticia,index);
+                    } else if(i === 1 && index % 2 !== 0) {
+                        result += montarArtigos(noticia,index);
+                    }                                                              
+                }  
+            result += "</div>";
+            
+        });
+        result += "</div>";
+
+        divPublicacoes.innerHTML = result;
+    }
+
+}
 
 function carregarNoticias() {
 
     const divNoticias = document.getElementById('divNoticias');
 
     if(divNoticias !== null){
+        
+        const somenteNoticias = artigos.filter(artigo => artigo.tipo === "noticia");
+        
         var result = "<div class='row extra'>";
-        noticias.forEach((noticia,index) => { 
-            let tipo = `${noticia.tipo}`;
-            if(tipo === 'noticia'){
-                result += "<div class='col-12 col-xl-6'>";   
-                for(var i = 0 ; i <=1 ; i++){                  
-                        if(i === 0 && index % 2 === 0) {
-                            result += montarNoticias(noticia,index);
-                        } else if(i === 1 && index % 2 !== 0) {
-                            result += montarNoticias(noticia,index);
-                        }                                                              
-                    }  
-                result += "</div>";
-            }
+        somenteNoticias.forEach((noticia,index) => {           
+            result += "<div class='col-12 col-xl-6'>";   
+            for(var i = 0 ; i <=1 ; i++){                  
+                    if(i === 0 && index % 2 === 0) {
+                        result += montarArtigos(noticia,index);
+                    } else if(i === 1 && index % 2 !== 0) {
+                        result += montarArtigos(noticia,index);
+                    }                                                              
+                }  
+            result += "</div>";
+            
         });
         result += "</div>";
 
@@ -143,7 +187,7 @@ function carregarNoticias() {
 
 }
 
-function montarNoticias(noticia,index) {
+function montarArtigos(noticia,index) {
     
     let linkPaginaHtml = `${noticia.linkPaginaHtml}`;
     let fotoNoticia = `${noticia.fotoNoticia}`;
@@ -185,7 +229,7 @@ function carregarNoticiasIndex(){
     const divNoticiasIndex = document.getElementById('divNoticiasIndex');
   
     if(divNoticiasIndex !== null){
-        const seisPrimeirasNoticias = noticias.slice(0, 6);
+        const seisPrimeirasNoticias = artigos.slice(0, 6);
 
            var result = "<div class='row'>";           
                 result += "<div class='col-xl-8 p-xl-1'>";                  
