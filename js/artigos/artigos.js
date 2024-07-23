@@ -1,4 +1,12 @@
 const artigos = [
+     {
+        "linkPaginaHtml": "noticias/noticia20/noticia20.html",
+        "fotoNoticia" :	"noticias/noticia20/foto1.jpg",
+        "tituloDaNoticia":	" - SINAEG Avança nas Negociações sobre Reestruturação dos Cargos da ERCE",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Avança nas Negociações sobre Reestruturação dos Cargos da ERCE",
+        "dataNoticia": "22.07.2024",
+        "tipo":"noticia"
+    },
     {
         "linkPaginaHtml": "publicacoes/publicacao3/publicacao3.html",
         "fotoNoticia" :	"publicacoes/publicacao3/foto1.jpg",
