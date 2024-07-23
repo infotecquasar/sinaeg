@@ -53,22 +53,22 @@ const artigos = [
         "linkPaginaHtml": "noticias/noticia15/noticia15.html",
         "fotoNoticia" : "noticias/noticia15/foto1.jpg",
         "tituloDaNoticia" : " - Avanços nas Negociações Salariais!",
-        "corpoTituloDaNoticia" : "📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
+        "corpoTituloDaNoticia" : "📢 Notícia | Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
         "dataNoticia": "19.06.2024",
         "tipo":"noticia"
     },
     {
-        "linkPaginaHtml": "noticias14.html",
-        "fotoNoticia" : "img/noticias/fotos2/fotos13.jpg",
+        "linkPaginaHtml": "noticias/noticia14/noticia14.html",
+        "fotoNoticia" : "noticias/noticia14/foto1.jpg",
         "tituloDaNoticia" : " - Reforma Tributária na Câmara",
-        "corpoTituloDaNoticia" : "Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados",
+        "corpoTituloDaNoticia" : "📢 Notícia | Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados",
         "dataNoticia": "25.06.2024",
         "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias13.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos12.jpg",
-        "tituloDaNoticia" : " - 📢 *ATENÇÃO, SINAEG e CONDSEF",
+        "tituloDaNoticia" : " - 📢 Notícia | *ATENÇÃO, SINAEG e CONDSEF",
         "corpoTituloDaNoticia" : "SINAEG e CONDSEF protocolam Complementação de Informações Técnicas na SRT/MGI",
         "dataNoticia": "21.06.2024",
         "tipo":"noticia"
@@ -77,7 +77,7 @@ const artigos = [
         "linkPaginaHtml": "noticias12.html",
         "fotoNoticia" : "img/noticias/fotos2/fotos11.jpg",
         "tituloDaNoticia" : " - Reunião com o Governo",
-        "corpoTituloDaNoticia" : "📢 *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
+        "corpoTituloDaNoticia" : "📢 Notícia | *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
         "dataNoticia":"19.06.2024"
     },
     {
