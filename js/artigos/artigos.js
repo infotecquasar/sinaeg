@@ -1,5 +1,14 @@
 const artigos = [
-     {
+    {
+        "linkPaginaHtml": "noticias/noticia21/noticia21.html",
+        "fotoNoticia" :	"noticias/noticia21/foto1.jpg",
+        "tituloDaNoticia":	" - SINAEG REALIZA REUNIÃO COM SERVIDORES DA SPU PARA FORTALECER A ATUAÇÃO DOS ERCE",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG REALIZA REUNIÃO COM SERVIDORES DA SPU PARA FORTALECER A ATUAÇÃO DOS ERCE",
+        "dataNoticia": "23.07.2024",
+        "tipo":"noticia"
+    }, 
+    
+    {
         "linkPaginaHtml": "noticias/noticia20/noticia20.html",
         "fotoNoticia" :	"noticias/noticia20/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG Avança nas Negociações sobre Reestruturação dos Cargos da ERCE",
