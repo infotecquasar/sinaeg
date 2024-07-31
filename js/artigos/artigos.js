@@ -1,5 +1,13 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/noticia22/noticia22.html",
+        "fotoNoticia" :	"noticias/noticia22/foto1.jpg",
+        "tituloDaNoticia":	" - PAGAMENTO DE SERVIDORES DA ERCE",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG COBRA PROVIDÊNCIAS DO MGI PARA PAGAMENTO DE SERVIDORES DA ERCE⭐",
+        "dataNoticia": "30.07.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/noticia21/noticia21.html",
         "fotoNoticia" :	"noticias/noticia21/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG REALIZA REUNIÃO COM SERVIDORES ",
