@@ -1,5 +1,13 @@
 const artigos = [
     {
+        "linkPaginaHtml": "publicacoes/publicacao4/publicacao4.html",
+        "fotoNoticia" :	"publicacoes/publicacao4/foto1.jpg",
+        "tituloDaNoticia":	" - TRANSVERSALIDADE PARA A CARREIRA ERCE",
+        "corpoTituloDaNoticia" : "📢 Publicação | TRANSVERSALIDADE PARA A CARREIRA ERCE Uma Necessidade para a Eficiência no Serviço Público Federal⭐",
+        "dataNoticia": "05.08.2024",
+        "tipo":"publicacao"
+    }, 
+    {
         "linkPaginaHtml": "noticias/noticia22/noticia22.html",
         "fotoNoticia" :	"noticias/noticia22/foto1.jpg",
         "tituloDaNoticia":	" - PAGAMENTO DE SERVIDORES DA ERCE",
