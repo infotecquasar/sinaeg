@@ -1,5 +1,13 @@
 const artigos = [
     {
+        "linkPaginaHtml": "publicacoes/publicacao5/publicacao5.html",
+        "fotoNoticia" :	"publicacoes/publicacao5/foto1.jpg",
+        "tituloDaNoticia":	" - ECONOMISTAS DO ERCE NAS POLÍTICAS PÚBLICAS",
+        "corpoTituloDaNoticia" : "📢 Publicação | O PAPEL CRUCIAL DOS ECONOMISTAS DO ERCE NAS POLÍTICAS PÚBLICAS⭐",
+        "dataNoticia": "06.08.2024",
+        "tipo":"publicacao"
+    }, 
+    {
         "linkPaginaHtml": "publicacoes/publicacao4/publicacao4.html",
         "fotoNoticia" :	"publicacoes/publicacao4/foto1.jpg",
         "tituloDaNoticia":	" - TRANSVERSALIDADE PARA A CARREIRA ERCE",
