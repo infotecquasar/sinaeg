@@ -103,7 +103,8 @@ const artigos = [
         "fotoNoticia" : "img/noticias/fotos2/fotos11.jpg",
         "tituloDaNoticia" : " - Reunião com o Governo",
         "corpoTituloDaNoticia" : "📢 Notícia | *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
-        "dataNoticia":"19.06.2024"
+        "dataNoticia":"19.06.2024",
+        "tipo":"noticia"
     },
     {
         "linkPaginaHtml": "noticias11.html",
