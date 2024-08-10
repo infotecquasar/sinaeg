@@ -1,4 +1,14 @@
 const artigos = [
+    
+    
+    {
+        "linkPaginaHtml": "noticias/noticia23/noticia23.html",
+        "fotoNoticia" :	"noticias/noticia23/foto1.jpg",
+        "tituloDaNoticia":	" - 📊EVENTO DO MÊS DOS ECONOMISTA",
+        "corpoTituloDaNoticia" : "📢 Notícia | ✍️📋 Anotem na Agenda! 📊EVENTO DO MÊS DOS ECONOMISTAS",
+        "dataNoticia": "13.08.2024",
+        "tipo":"noticia"
+    }, 
     {
         "linkPaginaHtml": "publicacoes/publicacao5/publicacao5.html",
         "fotoNoticia" :	"publicacoes/publicacao5/foto1.jpg",
