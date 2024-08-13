@@ -1,6 +1,12 @@
 const artigos = [
-    
-    
+    {
+        "linkPaginaHtml": "noticias/noticia24/noticia24.html",
+        "fotoNoticia" :	"noticias/noticia24/foto1.jpg",
+        "tituloDaNoticia":	" - 📊Celebração do Dia do Economista",
+        "corpoTituloDaNoticia" : "📢 Notícia | 📊Celebração do Dia do Economista",
+        "dataNoticia": "13.08.2024",
+        "tipo":"noticia"
+    },  
     {
         "linkPaginaHtml": "noticias/noticia23/noticia23.html",
         "fotoNoticia" :	"noticias/noticia23/foto1.jpg",
