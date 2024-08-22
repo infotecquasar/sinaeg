@@ -1,7 +1,17 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia25/noticia25.html",
+        "fotoDestaque" :"noticias/2024/noticia25/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia25/foto2.jpg",
+        "tituloDaNoticia":	" - OFÍCIO PARA RECOMPOSIÇÃO DA PARIDADE REMUNERATÓRIA",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG PROTOCOLA OFÍCIO PARA RECOMPOSIÇÃO DA PARIDADE REMUNERATÓRIA ENTRE CARGOS DA ERCE E DNIT",
+        "dataNoticia": "22.08.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia24/noticia24.html",
-        "fotoNoticia" :	"noticias/2024/noticia24/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia24/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia24/foto1.jpg",
         "tituloDaNoticia":	" - 📊Celebração do Dia do Economista",
         "corpoTituloDaNoticia" : "📢 Notícia | 📊Celebração do Dia do Economista",
         "dataNoticia": "13.08.2024",
@@ -9,7 +19,8 @@ const artigos = [
     },  
     {
         "linkPaginaHtml": "noticias/2024/noticia23/noticia23.html",
-        "fotoNoticia" :	"noticias/2024/noticia23/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia23/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia23/foto1.jpg",
         "tituloDaNoticia":	" - 📊EVENTO DO MÊS DOS ECONOMISTA",
         "corpoTituloDaNoticia" : "📢 Notícia | ✍️📋 Anotem na Agenda! 📊EVENTO DO MÊS DOS ECONOMISTAS",
         "dataNoticia": "13.08.2024",
@@ -17,7 +28,8 @@ const artigos = [
     }, 
     {
         "linkPaginaHtml": "publicacoes/2024/publicacao5/publicacao5.html",
-        "fotoNoticia" :	"publicacoes/2024/publicacao5/foto1.jpg",
+        "fotoDestaque" :	"publicacoes/2024/publicacao5/foto1.jpg",
+        "fotoArtigo" :	"publicacoes/2024/publicacao5/foto1.jpg",
         "tituloDaNoticia":	" - ECONOMISTAS DO ERCE NAS POLÍTICAS PÚBLICAS",
         "corpoTituloDaNoticia" : "📢 Publicação | O PAPEL CRUCIAL DOS ECONOMISTAS DO ERCE NAS POLÍTICAS PÚBLICAS⭐",
         "dataNoticia": "06.08.2024",
@@ -25,7 +37,8 @@ const artigos = [
     }, 
     {
         "linkPaginaHtml": "publicacoes/2024/publicacao4/publicacao4.html",
-        "fotoNoticia" :	"publicacoes/2024/publicacao4/foto1.jpg",
+        "fotoDestaque" :	"publicacoes/2024/publicacao4/foto1.jpg",
+        "fotoArtigo" :	"publicacoes/2024/publicacao4/foto1.jpg",
         "tituloDaNoticia":	" - TRANSVERSALIDADE PARA A CARREIRA ERCE",
         "corpoTituloDaNoticia" : "📢 Publicação | TRANSVERSALIDADE PARA A CARREIRA ERCE Uma Necessidade para a Eficiência no Serviço Público Federal⭐",
         "dataNoticia": "05.08.2024",
@@ -33,7 +46,8 @@ const artigos = [
     }, 
     {
         "linkPaginaHtml": "noticias/2024/noticia22/noticia22.html",
-        "fotoNoticia" :	"noticias/2024/noticia22/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia22/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia22/foto1.jpg",
         "tituloDaNoticia":	" - PAGAMENTO DE SERVIDORES DA ERCE",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG COBRA PROVIDÊNCIAS DO MGI PARA PAGAMENTO DE SERVIDORES DA ERCE⭐",
         "dataNoticia": "30.07.2024",
@@ -41,7 +55,8 @@ const artigos = [
     }, 
     {
         "linkPaginaHtml": "noticias/2024/noticia21/noticia21.html",
-        "fotoNoticia" :	"noticias/2024/noticia21/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia21/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia21/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG REALIZA REUNIÃO COM SERVIDORES ",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG REALIZA REUNIÃO COM SERVIDORES DA SPU PARA FORTALECER A ATUAÇÃO DOS ERCE",
         "dataNoticia": "23.07.2024",
@@ -50,7 +65,8 @@ const artigos = [
     
     {
         "linkPaginaHtml": "noticias/2024/noticia20/noticia20.html",
-        "fotoNoticia" :	"noticias/2024/noticia20/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia20/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia20/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG Avança nas Negociações sobre Reestruturação",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Avança nas Negociações sobre Reestruturação dos Cargos da ERCE",
         "dataNoticia": "22.07.2024",
@@ -58,7 +74,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "publicacoes/2024/publicacao3/publicacao3.html",
-        "fotoNoticia" :	"publicacoes/2024/publicacao3/foto1.jpg",
+        "fotoDestaque" :	"publicacoes/2024/publicacao3/foto1.jpg",
+        "fotoArtigo" :	"publicacoes/2024/publicacao3/foto1.jpg",
         "tituloDaNoticia":	" - DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
         "corpoTituloDaNoticia" : "📢 Publicação | A DEFINIÇÃO DE ENGENHARIA COMO UM INSTRUMENTO DO ESTADO",
         "dataNoticia": "15.07.2024",
@@ -67,7 +84,8 @@ const artigos = [
     
     {
         "linkPaginaHtml": "noticias/2024/noticia19/noticia19.html",
-        "fotoNoticia" :	"noticias/2024/noticia19/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia19/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia19/foto1.jpg",
         "tituloDaNoticia":	" - SINAEG Participa de Evento do Corecon-DF",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG Participa de Evento do Corecon-DF sobre Financiamento Público Bancário para o Desenvolvimento Regional",
         "dataNoticia": "11.07.2024",
@@ -76,7 +94,8 @@ const artigos = [
     
     {
        "linkPaginaHtml": "noticias/2024/noticia18/noticia18.html",
-       "fotoNoticia" :	"noticias/2024/noticia18/foto1.jpg",
+       "fotoDestaque" :	"noticias/2024/noticia18/foto1.jpg",
+       "fotoArtigo" :	"noticias/2024/noticia18/foto1.jpg",
        "tituloDaNoticia":	" - SINAEG e SPU-MGI Realizam Reunião",
        "corpoTituloDaNoticia" :"📢 Notícia | SINAEG e SPU-MGI Realizam Reunião para Fortalecer Parceria e Valorizar Servidores da ERCE",
        "dataNoticia": "10.07.2024",
@@ -84,7 +103,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia17/noticia17.html",
-        "fotoNoticia" :	"noticias/2024/noticia17/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia17/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia17/foto1.jpg",
         "tituloDaNoticia":	" - Novo Acordo com Governo",
         "corpoTituloDaNoticia" :" 📢 Notícia | SINAEG Assina Novo Acordo com Governo: Um Passo nas Negociações",
         "dataNoticia": "04.07.2024",
@@ -92,7 +112,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia16/noticia16.html",
-        "fotoNoticia" :	"noticias/2024/noticia16/foto1.jpg",
+        "fotoDestaque" :	"noticias/2024/noticia16/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia16/foto1.jpg",
         "tituloDaNoticia" : " - Reposição Salarial Assinada!",
         "corpoTituloDaNoticia" : "📢 Notícia | Vitória dos Servidores da ERCE: Reposição Salarial Assinada!⭐",
         "dataNoticia": "03.07.2024",
@@ -100,7 +121,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia15/noticia15.html",
-        "fotoNoticia" : "noticias/2024/noticia15/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia15/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia15/foto1.jpg",
         "tituloDaNoticia" : " - Avanços nas Negociações Salariais!",
         "corpoTituloDaNoticia" : "📢 Notícia | Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
         "dataNoticia": "19.06.2024",
@@ -108,7 +130,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia14/noticia14.html",
-        "fotoNoticia" : "noticias/2024/noticia14/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia14/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia14/foto1.jpg",
         "tituloDaNoticia" : " - Reforma Tributária na Câmara",
         "corpoTituloDaNoticia" : "📢 Notícia | Direito dos Trabalhadores em Discussão sobre Reforma Tributária na Câmara dos Deputados",
         "dataNoticia": "25.06.2024",
@@ -116,7 +139,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia13/noticia13.html",
-        "fotoNoticia" : "noticias/2024/noticia13/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia13/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia13/foto1.jpg",
         "tituloDaNoticia" : " - 📢 Notícia | *ATENÇÃO, SINAEG e CONDSEF",
         "corpoTituloDaNoticia" : "SINAEG e CONDSEF protocolam Complementação de Informações Técnicas na SRT/MGI",
         "dataNoticia": "21.06.2024",
@@ -124,7 +148,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia12/noticia12.html",
-        "fotoNoticia" : "noticias/2024/noticia12/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia12/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia12/foto1.jpg",
         "tituloDaNoticia" : " - Reunião com o Governo",
         "corpoTituloDaNoticia" : "📢 Notícia | *ATENÇÃO, Avanços nas Negociações Salariais: Atualização sobre a Reunião com o Governo*",
         "dataNoticia":"19.06.2024",
@@ -132,7 +157,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia11/noticia11.html",
-        "fotoNoticia" : "noticias/2024/noticia11/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia11/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia11/foto1.jpg",
         "tituloDaNoticia" : " - Assembleia Extraordinária do SINAEG",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, SERVIDORES DO SINAEG!* transferência da Assembleia Extraordinária do SINAEG para 19 de Junho*",
         "dataNoticia":"19.06.2024",
@@ -140,7 +166,8 @@ const artigos = [
     },
     {
        "linkPaginaHtml": "noticias/2024/noticia10/noticia10.html",
-        "fotoNoticia" : "noticias/2024/noticia10/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia10/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia10/foto1.jpg",
         "tituloDaNoticia" : " - Notícia de Última Hora!*",
         "corpoTituloDaNoticia" : "📢 *Notícia de Última Hora!*",
         "dataNoticia":"12.06.2024",
@@ -148,7 +175,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia9/noticia9.html",
-        "fotoNoticia" : "noticias/2024/noticia9/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia9/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia9/foto1.jpg",
         "tituloDaNoticia" : " - APOIO DA ASSEMAE AO SINAEG",
         "corpoTituloDaNoticia" : "📢 *Proposta de Moção - APOIO DA ASSEMAE AO SINAEG*",
         "dataNoticia":"10.06.2024",
@@ -156,7 +184,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "noticias/2024/noticia8/noticia8.html",
-        "fotoNoticia" : "noticias/2024/noticia8/foto1.jpg",
+        "fotoDestaque" : "noticias/2024/noticia8/foto1.jpg",
+        "fotoArtigo" : "noticias/2024/noticia8/foto1.jpg",
         "tituloDaNoticia" : " - SINAEG REPUDIA DESVALORIZAÇÃO",
         "corpoTituloDaNoticia" : "📢 *ATENÇÃO, SINAEG REPUDIA DESVALORIZAÇÃO DO GOVERNO E ENQUADRAMENTO INJUSTO A SUPORTE ADMINISTRATIVO",
         "dataNoticia":"10.05.2024",
@@ -164,7 +193,8 @@ const artigos = [
     },
     {
         "linkPaginaHtml": "publicacoes/2024/publicacao2/publicacao2.html",
-        "fotoNoticia" :	"publicacoes/2024/publicacao2/foto1.jpg",
+        "fotoDestaque" :	"publicacoes/2024/publicacao2/foto1.jpg",
+        "fotoArtigo" :	"publicacoes/2024/publicacao2/foto1.jpg",
         "tituloDaNoticia":	" - Carta Aberta ao Presidente Lula",
         "corpoTituloDaNoticia" : "📢 Publicação | Carta Aberta ao Presidente Lula",
         "dataNoticia": "20.06.2024",
@@ -173,7 +203,8 @@ const artigos = [
     ,
     {
         "linkPaginaHtml": "publicacoes/2024/publicacao1/publicacao1.html",
-        "fotoNoticia" :	"publicacoes/2024/publicacao1/foto1.jpg",
+        "fotoDestaque" :	"publicacoes/2024/publicacao1/foto1.jpg",
+        "fotoArtigo" :	"publicacoes/2024/publicacao1/foto1.jpg",
         "tituloDaNoticia":	" - AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA",
         "corpoTituloDaNoticia" : "📢 Publicação | AS CIDADES ESPONJAS E A ENGENHARIA PÚBLICA",
         "dataNoticia": "14.06.2024",
@@ -248,7 +279,7 @@ function carregarNoticias() {
 function montarArtigos(artigo,index) {
     
     let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
-    let fotoNoticia = `${artigo.fotoNoticia}`;
+    let fotoArtigo = `${artigo.fotoArtigo}`;
     let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
     let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
     let dataNoticia = `${artigo.dataNoticia}`;
@@ -260,7 +291,7 @@ function montarArtigos(artigo,index) {
         result += "<div class='col-auto col-destaques-resp'>";
         result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
             result += "<img class='img-destaque'";
-                result += "src='"+fotoNoticia+"'";
+                result += "src='"+fotoArtigo+"'";
                 result += "alt='"+corpoTituloDaNoticia+"'";
                 result += "title='"+corpoTituloDaNoticia+"'>";
                 result += "<div class='box-red notice-title  ajusteMobile' style='width: 100% !important;'>";
@@ -304,7 +335,7 @@ function carregarNoticiasIndex(){
                             if(index >= 0 && index <=2 ){
                                 const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
                                 let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
-                                let fotoNoticia = `${artigo.fotoNoticia}`;
+                                let fotoDestaque = `${artigo.fotoDestaque}`;
                                 let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
                                 let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
                                 let dataNoticia = `${artigo.dataNoticia}`;
@@ -321,7 +352,7 @@ function carregarNoticiasIndex(){
                                             result += "<div class='text-alerta'> "+dataNoticia+tituloDaNoticia+" </div>";
                                         result += "</div>";
                                         result += "<img class='d-block w-100 banner-img'";
-                                            result += "src='"+fotoNoticia+"'";
+                                            result += "src='"+fotoDestaque+"'";
                                             result += "alt='"+corpoTituloDaNoticia+"'";
                                             result += "title='"+corpoTituloDaNoticia+"'>";
                                     result += "</a>";
@@ -339,7 +370,7 @@ function carregarNoticiasIndex(){
                         if(index > 2) {
                             const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
                             let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
-                            let fotoNoticia = `${artigo.fotoNoticia}`;
+                            let fotoDestaque = `${artigo.fotoDestaque}`;
                             let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
                             let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
                             let dataNoticia = `${artigo.dataNoticia}`;
@@ -354,7 +385,7 @@ function carregarNoticiasIndex(){
                                         result +=   "<div class='row not-dest-condsef'>";
                                         result +=   "<div class='col-5 notice-text'>";
                                                 result +=   " <img class='d-block w-100'";
-                                                result +=   " src='"+fotoNoticia+"'";
+                                                result +=   " src='"+fotoDestaque+"'";
                                                 result +=    " alt='"+tituloDaNoticia+"'";
                                                 result +=    " title='"+tituloDaNoticia+"'>";
                                             result +=   "</div>";
@@ -417,14 +448,14 @@ function displayParameter() {
     result += "</div>" 
     divDataNoticia.innerHTML = result;
 
-    const divFotoNoticia = document.getElementById('fotoNoticia'); 
-    const srcFoto =  "../../../" + artigo.fotoNoticia;
+    const divfotoArtigo = document.getElementById('fotoArtigo'); 
+    const srcFoto =  "../../../" + artigo.fotoArtigo;
     var result = "<div class='col-md-8'>";
             result += "<img class='w-100' src='"+srcFoto+"'";
             result += "alt='"+artigo.tituloDaNoticia+"' />"
             result += "<div class='text-legenda-noticia' >Reprodução/SINAEG</div>";
         result += "</div>";	
-    divFotoNoticia.innerHTML = result;
+    divfotoArtigo.innerHTML = result;
 
 }
 
