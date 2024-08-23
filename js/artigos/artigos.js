@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia26/noticia26.html",
+        "fotoDestaque" :"noticias/2024/noticia26/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia26/foto2.jpg",
+        "tituloDaNoticia":	" - SUPORTE PARA REESTRUTURAÇÃO DOS CARGOS",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG AGRADECE APOIO DA FUNASA E SOLICITA SUPORTE PARA REESTRUTURAÇÃO DOS CARGOS DA ERCE",
+        "dataNoticia": "23.08.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia25/noticia25.html",
         "fotoDestaque" :"noticias/2024/noticia25/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia25/foto2.jpg",
