@@ -21,7 +21,7 @@ const artigos = [
         "linkPaginaHtml": "noticias/2024/noticia25/noticia25.html",
         "fotoDestaque" :"noticias/2024/noticia25/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia25/foto2.jpg",
-        "tituloDaNoticia":	" - OFÍCIO PARA RECOMPOSIÇÃO DA PARIDADE REMUNERATÓRIA",
+        "tituloDaNoticia":	" - RECOMPOSIÇÃO DA PARIDADE REMUNERATÓRIA",
         "corpoTituloDaNoticia" : "📢 Notícia | SINAEG PROTOCOLA OFÍCIO PARA RECOMPOSIÇÃO DA PARIDADE REMUNERATÓRIA ENTRE CARGOS DA ERCE E DNIT",
         "dataNoticia": "22.08.2024",
         "tipo":"noticia"
