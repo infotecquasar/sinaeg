@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia27/noticia27.html",
+        "fotoDestaque" :"noticias/2024/noticia27/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia27/foto2.jpg",
+        "tituloDaNoticia":	" -  DISCUTIR NOVOS RUMOS NA REESTRUTURAÇÃO DA CARREIRA",
+        "corpoTituloDaNoticia" : "📢 Notícia | SERVIDORES DA ERCE DA SPU SE REÚNEM COM O PRESIDENTE DO SINAEG PARA DISCUTIR NOVOS RUMOS NA REESTRUTURAÇÃO DA CARREIRA",
+        "dataNoticia": "28.08.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia26/noticia26.html",
         "fotoDestaque" :"noticias/2024/noticia26/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia26/foto2.jpg",
