@@ -247,15 +247,15 @@ function carregarPublicacoes() {
         const somentePublicacoes = artigos.filter(artigo => artigo.tipo === "publicacao");
         
         var result = "<div class='row extra'>";
-        somentePublicacoes.forEach((noticia,index) => {           
+        somentePublicacoes.forEach((artigo,index) => {           
             result += "<div class='col-12 col-xl-6'>";   
             for(var i = 0 ; i <=1 ; i++){                  
-                    if(i === 0 && index % 2 === 0) {
-                        result += montarArtigos(noticia,index);
-                    } else if(i === 1 && index % 2 !== 0) {
-                        result += montarArtigos(noticia,index);
-                    }                                                              
-                }  
+                if(i === 0 && index % 2 === 0) {
+                    result += montarArtigos(artigo,index);
+                } else if(i === 1 && index % 2 !== 0) {
+                    result += montarArtigos(artigo,index);
+                }                                                              
+            }  
             result += "</div>";
             
         });
@@ -275,15 +275,15 @@ function carregarNoticias() {
         const somenteNoticias = artigos.filter(artigo => artigo.tipo === "noticia");
         
         var result = "<div class='row extra'>";
-        somenteNoticias.forEach((noticia,index) => {           
+        somenteNoticias.forEach((artigo,index) => {           
             result += "<div class='col-12 col-xl-6'>";   
             for(var i = 0 ; i <=1 ; i++){                  
-                    if(i === 0 && index % 2 === 0) {
-                        result += montarArtigos(noticia,index);
-                    } else if(i === 1 && index % 2 !== 0) {
-                        result += montarArtigos(noticia,index);
-                    }                                                              
-                }  
+                if(i === 0 && index % 2 === 0) {
+                    result += montarArtigos(artigo,index);
+                } else if(i === 1 && index % 2 !== 0) {
+                    result += montarArtigos(artigo,index);
+                }                                                              
+            }  
             result += "</div>";
             
         });
@@ -298,6 +298,7 @@ function montarArtigos(artigo,index) {
     
     let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
     let fotoArtigo = `${artigo.fotoArtigo}`;
+    let fotoDestaque = `${artigo.fotoDestaque}`;
     let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
     let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
     let dataNoticia = `${artigo.dataNoticia}`;
@@ -309,7 +310,7 @@ function montarArtigos(artigo,index) {
         result += "<div class='col-auto col-destaques-resp'>";
         result += "<a class='nolink' style='color:#1A76D1;' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
             result += "<img class='img-destaque'";
-                result += "src='"+fotoArtigo+"'";
+                result += "src='"+fotoDestaque+"'";
                 result += "alt='"+corpoTituloDaNoticia+"'";
                 result += "title='"+corpoTituloDaNoticia+"'>";
                 result += "<div class='box-red notice-title  ajusteMobile' style='width: 100% !important;'>";
