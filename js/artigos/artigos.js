@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia28/noticia28.html",
+        "fotoDestaque" :"noticias/2024/noticia28/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia28/foto2.jpg",
+        "tituloDaNoticia":	"-ENGENHARIA DA RECEITA FEDERAL EM FORTALEZA",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG REFORÇA A IMPORTÂNCIA DA ERCE EM EVENTO DE ENGENHARIA DA RECEITA FEDERAL EM FORTALEZA",
+        "dataNoticia": "29.08.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia27/noticia27.html",
         "fotoDestaque" :"noticias/2024/noticia27/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia27/foto2.jpg",
