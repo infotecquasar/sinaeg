@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia29/noticia29.html",
+        "fotoDestaque" :"noticias/2024/noticia29/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia29/foto2.jpg",
+        "tituloDaNoticia":	"-MGI RESPONDE À CÂMARA DOS DEPUTADOS",
+        "corpoTituloDaNoticia" : "📢 Notícia | MGI RESPONDE À CÂMARA DOS DEPUTADOS SOBRE NEGOCIAÇÃO COM A ERCE",
+        "dataNoticia": "30.08.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia28/noticia28.html",
         "fotoDestaque" :"noticias/2024/noticia28/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia28/foto2.jpg",
