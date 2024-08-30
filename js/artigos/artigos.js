@@ -358,7 +358,8 @@ function carregarNoticiasIndex(){
   
     if(divNoticiasIndex !== null){
         const seisPrimeirasNoticias = artigos.slice(0, 6);
-
+        const tresPrimeirasDasSeisNoticias = seisPrimeirasNoticias.slice(0,3);
+        const tresUltimasDasSeisNoticias = seisPrimeirasNoticias.slice(3,seisPrimeirasNoticias.length);
            var result = "<div class='row'>";           
                 result += "<div class='col-xl-8 p-xl-1'>";                  
                     result += "<div id='myslide' class='carousel slide' data-ride='carousel'>";                 
@@ -368,34 +369,32 @@ function carregarNoticiasIndex(){
                             result += "<li data-target='#myslide' data-slide-to='2' class=''></li>";
                         result += "</ol>";                       
                         result += "<div class='carousel-inner'>";                                              
-                        seisPrimeirasNoticias.forEach((artigo,index) => {                            
-                            if(index >= 0 && index <=2 ){
-                                const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
-                                let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
-                                let fotoDestaque = `${artigo.fotoDestaque}`;
-                                let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
-                                let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
-                                let dataNoticia = `${artigo.dataNoticia}`;
-                                let active = index === 0 ? 'active' : '';
-                                result += "<div class='carousel-item  "+active+"'>";					
-                                    result += "<div id='idNoticiaPrimaria"+index+"'></div>";							                                   
-                                    result +=  "<div class='carousel-caption d-md-block titulo-banner'>";
-                                        result += "<div class='text' style='font-size: 16px !important'>";
-                                        result += corpoTituloDaNoticia; 
-                                        result += "</div>";
+                        tresPrimeirasDasSeisNoticias.forEach((artigo,index) => {                            
+                            const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
+                            let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
+                            let fotoDestaque = `${artigo.fotoDestaque}`;
+                            let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
+                            let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
+                            let dataNoticia = `${artigo.dataNoticia}`;
+                            let active = index === 0 ? 'active' : '';
+                            result += "<div class='carousel-item  "+active+"'>";					
+                                result += "<div id='idNoticiaPrimaria"+index+"'></div>";							                                   
+                                result +=  "<div class='carousel-caption d-md-block titulo-banner'>";
+                                    result += "<div class='text' style='font-size: 16px !important'>";
+                                    result += corpoTituloDaNoticia; 
                                     result += "</div>";
-                                    result += "<a href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"' target='_blank'>";
-                                        result += "<div class='carousel-caption carousel-caption-alerta d-md-block text-left'>";
-                                            result += "<div class='text-alerta'> "+dataNoticia+tituloDaNoticia+" </div>";
-                                        result += "</div>";
-                                        result += "<img class='d-block w-100 banner-img'";
-                                            result += "src='"+fotoDestaque+"'";
-                                            result += "alt='"+corpoTituloDaNoticia+"'";
-                                            result += "title='"+corpoTituloDaNoticia+"'>";
-                                    result += "</a>";
-                                    result += "<div class='carousel-caption-2 d-md-block text-right'>Foto: "+dataNoticia+tituloDaNoticia+"</div>";
-                                result += "</div>"; 
-                            }
+                                result += "</div>";
+                                result += "<a href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"' target='_blank'>";
+                                    result += "<div class='carousel-caption carousel-caption-alerta d-md-block text-left'>";
+                                        result += "<div class='text-alerta'> "+dataNoticia+tituloDaNoticia+" </div>";
+                                    result += "</div>";
+                                    result += "<img class='d-block w-100 banner-img'";
+                                        result += "src='"+fotoDestaque+"'";
+                                        result += "alt='"+corpoTituloDaNoticia+"'";
+                                        result += "title='"+corpoTituloDaNoticia+"'>";
+                                result += "</a>";
+                                result += "<div class='carousel-caption-2 d-md-block text-right'>Foto: "+dataNoticia+tituloDaNoticia+"</div>";
+                            result += "</div>"; 
                         });
                         result += "</div>";
                     result += "</div>";
@@ -403,39 +402,36 @@ function carregarNoticiasIndex(){
                 
               
                 result += "<div class='col-xl-4 p-xl-1 notices'>";
-                    seisPrimeirasNoticias.forEach((artigo,index) => {    
-                        if(index > 2) {
-                            const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
-                            let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
-                            let fotoDestaque = `${artigo.fotoDestaque}`;
-                            let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
-                            let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
-                            let dataNoticia = `${artigo.dataNoticia}`;
-                            result += "<div id='idNoticiaSecundaria"+index+"'></div>";
-                            	
+                    tresUltimasDasSeisNoticias.forEach((artigo,index) => {    
+                        const jsonArtigo = encodeURIComponent(JSON.stringify(artigo));
+                        let linkPaginaHtml = `${artigo.linkPaginaHtml}`;
+                        let fotoDestaque = `${artigo.fotoDestaque}`;
+                        let tituloDaNoticia = `${artigo.tituloDaNoticia}`;
+                        let corpoTituloDaNoticia = `${artigo.corpoTituloDaNoticia}`;
+                        let dataNoticia = `${artigo.dataNoticia}`;
+                        result += "<div id='idNoticiaSecundaria"+index+"'></div>";
                             
+                        
 
-                            result += "<a class='nolink' target='_blank' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
-                                result += "<div class='notice-block' style='border: 1px solid #1A76D1;padding: 4px;'>";
-                                    result +=  "<div class='notice-title'> "+dataNoticia+tituloDaNoticia+"</div>";
-                                    result +=   "<div class='col-12'>";
-                                        result +=   "<div class='row not-dest-condsef'>";
-                                        result +=   "<div class='col-5 notice-text'>";
-                                                result +=   " <img class='d-block w-100'";
-                                                result +=   " src='"+fotoDestaque+"'";
-                                                result +=    " alt='"+tituloDaNoticia+"'";
-                                                result +=    " title='"+tituloDaNoticia+"'>";
-                                            result +=   "</div>";
-                                            result +=   "<div class='col-7 notice-text' style='color: black;font-size: 13px !important;'>";
-                                                result +=   corpoTituloDaNoticia;
-                                            result +=   "</div>";
+                        result += "<a class='nolink' target='_blank' href='"+linkPaginaHtml+"?artigo="+jsonArtigo+"'>";
+                            result += "<div class='notice-block' style='border: 1px solid #1A76D1;padding: 4px;'>";
+                                result +=  "<div class='notice-title'> "+dataNoticia+tituloDaNoticia+"</div>";
+                                result +=   "<div class='col-12'>";
+                                    result +=   "<div class='row not-dest-condsef'>";
+                                    result +=   "<div class='col-5 notice-text'>";
+                                            result +=   " <img class='d-block w-100'";
+                                            result +=   " src='"+fotoDestaque+"'";
+                                            result +=    " alt='"+tituloDaNoticia+"'";
+                                            result +=    " title='"+tituloDaNoticia+"'>";
+                                        result +=   "</div>";
+                                        result +=   "<div class='col-7 notice-text' style='color: black;font-size: 13px !important;'>";
+                                            result +=   corpoTituloDaNoticia;
                                         result +=   "</div>";
                                     result +=   "</div>";
-                                result += "</div>";
-                            result += "</a>";
-
+                                result +=   "</div>";
+                            result += "</div>";
+                        result += "</a>";
                             
-                        }
                     });
                     result += "<a href='noticias.html' class='nolink text-right' target='_blank'>";
                         result += "<div class='custom-red-button banner-botton'>MAIS NOTÍCIAS</div>";
