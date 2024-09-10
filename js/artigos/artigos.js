@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia30/noticia30.html",
+        "fotoDestaque" :"noticias/2024/noticia30/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia30/foto2.jpg",
+        "tituloDaNoticia":	"-SINAEG E FUNASA DISCUTEM AVANÇOS",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG E FUNASA DISCUTEM AVANÇOS PARA A CARREIRA DA ERCE",
+        "dataNoticia": "10.09.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia29/noticia29.html",
         "fotoDestaque" :"noticias/2024/noticia29/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia29/foto2.jpg",
