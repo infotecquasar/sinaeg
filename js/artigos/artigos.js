@@ -1,4 +1,13 @@
 const artigos = [
+     {
+        "linkPaginaHtml": "noticias/2024/noticia31/noticia31.html",
+        "fotoDestaque" :"noticias/2024/noticia31/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia31/foto2.jpg",
+        "tituloDaNoticia":	"-XIV ENEOESTE 2024",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG MARCA PRESENÇA NO XIV ENEOESTE 2024",
+        "dataNoticia": "16.09.2024",
+        "tipo":"noticia"
+    }, 
     {
         "linkPaginaHtml": "noticias/2024/noticia30/noticia30.html",
         "fotoDestaque" :"noticias/2024/noticia30/foto1.jpg",
