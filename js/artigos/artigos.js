@@ -1,5 +1,14 @@
 const artigos = [
-     {
+    {
+        "linkPaginaHtml": "noticias/2024/noticia32/noticia32.html",
+        "fotoDestaque" :"noticias/2024/noticia32/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia32/foto2.jpg",
+        "tituloDaNoticia":	"-Presidente do SINAEG se reúne com presidente da SUDECO ",
+        "corpoTituloDaNoticia" : "📢 Notícia | Presidente do SINAEG se reúne com presidente da SUDECO durante o XIV ENEOESTE e discute apoio aos pleitos da categoria",
+        "dataNoticia": "17.09.2024",
+        "tipo":"noticia"
+    },  
+    {
         "linkPaginaHtml": "noticias/2024/noticia31/noticia31.html",
         "fotoDestaque" :"noticias/2024/noticia31/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia31/foto2.jpg",
