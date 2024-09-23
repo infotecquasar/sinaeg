@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia33/noticia33.html",
+        "fotoDestaque" :"noticias/2024/noticia33/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia33/foto2.jpg",
+        "tituloDaNoticia":	"-SINAEG FORTALECE ALIANÇAS NO CEARÁ",
+        "corpoTituloDaNoticia" : "📢 Notícia | SINAEG FORTALECE ALIANÇAS NO CEARÁ PARA VALORIZAÇÃO DA ERCE",
+        "dataNoticia": "23.09.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia32/noticia32.html",
         "fotoDestaque" :"noticias/2024/noticia32/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia32/foto2.jpg",
