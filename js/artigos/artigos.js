@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia34/noticia34.html",
+        "fotoDestaque" :"noticias/2024/noticia34/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia34/foto2.jpg",
+        "tituloDaNoticia":	"-ENCONTRO DOS SERVIDORES DA ERCE EM FORTALEZA",
+        "corpoTituloDaNoticia" : "📢 Notícia | 1º ENCONTRO DOS SERVIDORES DA ERCE EM FORTALEZA FORTALECE UNIÃO E ORGANIZA NOVAS AÇÕES SINDICAIS",
+        "dataNoticia": "25.09.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia33/noticia33.html",
         "fotoDestaque" :"noticias/2024/noticia33/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia33/foto2.jpg",

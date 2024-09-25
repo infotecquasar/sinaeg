@@ -1,0 +1,307 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Site keywords here">
+	<meta name="description" content="">
+	<meta name='copyright' content=''>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<!-- Title -->
+	<title>SINAEG</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="../../../img/favicon-sinaeg.jpg">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="../../../css/sinaeg.min.css">
+
+	<link rel="stylesheet" href="../../../css/style.css">
+
+	<link rel="stylesheet" href="../../../css/home.min.css">
+
+	<link rel="stylesheet" href="../../../css/theme.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../../../css/bootstrap.min.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="../../../css/nice-select.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="../../../css/font-awesome.min.css">
+	<!-- icofont CSS -->
+	<link rel="stylesheet" href="../../../css/icofont.css">
+	<!-- Slicknav -->
+	<link rel="stylesheet" href="../../../css/slicknav.min.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="../../../css/owl-carousel.css">
+	<!-- Datepicker CSS -->
+	<link rel="stylesheet" href="../../../css/datepicker.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="../../../css/animate.min.css">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="../../../css/magnific-popup.css">
+
+	<!-- Medipro CSS -->
+	<link rel="stylesheet" href="../../../css/normalize.css">
+	<link rel="stylesheet" href="../../../style.css">
+	<link rel="stylesheet" href="../../../css/responsive.css">
+
+	<script src="../../../js/slider/sliderFuncoes.js"></script>
+
+	
+
+	<!-- Carrega o footer da pagina -->
+	<script src="../../../js/footer/footer.js" ></script>
+
+	<!-- Carrega o header da pagina -->
+	<script src="../../../js/header/header.js" ></script>
+
+	<script src="../../../js/jquery.scrollUp.min.js" ></script>
+
+	<!-- adiciona link de noticias na index.htm e noticias.html e carrega parametros-->
+	<script src="../../../js/artigos/artigos.js" ></script>
+
+</head>
+
+<body onload="initMap();displayParameter()">
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+
+			<div class="indicator">
+				<svg width="16px" height="12px">
+					<polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+					<polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header Area -->
+	<div id="idHeader"></div>							
+	<script>				
+			carregarHeaderNovo('../../../');							
+	</script>
+	<!-- End Header Area -->
+	<br />
+
+
+	<!--/ page info -->
+	<div>
+		<!-- container -->
+		<div class="container">
+
+			<!-- monta o corpo da noticia -->	
+			<div id="corpoTituloDaNoticia" ></div>
+		
+			<!-- share -->
+			<div class="share text-center article-limit-width">
+				<span style="color: #1A76D1; font-weight: bold;">
+					<i class="far fa-clock"></i> 
+					<!-- monta a data da noticia -->			 
+					<div id="dataNoticia" ></div>
+				</span>&nbsp;&nbsp;
+			</div>
+
+
+			<!--/ share -->
+			<div class="col-md-12" align="center">
+				<br>
+				<div id="fotoArtigo"></div>					
+			</div>
+			<!-- bar -->
+			<div class="bar article-limit-width"></div>
+			<!--/bar -->
+			<!-- article text -->
+			<div class="article-text article-limit-width">
+				<p><b>SINAEG</b></p>
+				<p style="color: black;">	
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<h4>
+						Na foto:
+					</h4>
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Ricardo Goyanna - Arquiteto, RFB
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Rosangela Vadconcelos - Economista, SPU
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Petronio Soares - Engenheiro, FUNASA
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Julio Nogueira, Engenheiro, RFB.
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Najla Maria Barbosa Soares - Arquiteta, SPU-CE;
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Celma Viana de Aquino - Engenheira Agrônoma, SPU-CE;
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Valdemiro Gonçalo de Aquino, Engenheiro, IBAMA (aposentado);
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					- Gleiciane Correia da Silva, Geóloga, SPU-CE.
+					<br/>
+										
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<h4>
+						Evento reforça importância da reestruturação da carreira e abre caminho para futuras negociações com o Governo
+					</h4>
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<b>SINAEG, 25/09 </b> - Fortaleza/CE recebeu nesta terça-feira (24/09), o 1º Encontro dos Servidores da ERCE, promovido pelo Sindicato Nacional dos Arquitetos, Economistas, Engenheiros, Estatísticos e Geólogos do Poder Executivo Federal (SINAEG). Com a presença do secretário-geral do Sindicato, Roberto Carvalho, e servidores locais, o encontro se destacou como um marco importante na organização da carreira da ERCE no Ceará e na região Nordeste.
+
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					A carreira da ERCE (Estrutura dos Cargos Específicos), composta pelos servidores dos cargos do Art. 19 da Lei 12.277/2010, é transdisciplinar e presente em diversos órgãos públicos, em todas as regiões do Brasil. Seus profissionais, com habilitação obrigatória junto aos Conselhos de Classe, desempenham funções essenciais atuando diretamente no desenvolvimento econômico e no investimento público, tornando-se uma peça fundamental na formulação e execução de políticas públicas de infraestrutura e crescimento do país
+
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<h4>
+						SINAEG reforça importância da valorização da ERCE e da reestruturação da carreira
+					</h4>
+
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Durante o encontro, o secretário-geral Roberto Carvalho destacou o avanço recente nas negociações com o Governo, culminando na assinatura do Termo de Acordo nº 08/2024, que garantiu um aumento salarial entre 17,7% e 35,5% para os servidores da ERCE. Além de apresentar o contexto dessas negociações, Carvalho aproveitou para ressaltar a importância de dar continuidade à luta por um novo plano de carreira que valorize os profissionais da ERCE, reforçando seu papel estratégico para o país.
+
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					O SINAEG também anunciou que, em breve, será retomada a Mesa de Negociação com o Governo, para dar prosseguimento à reestruturação da carreira da ERCE. O Sindicato espera que essa nova fase das conversas permita a criação de um plano de carreira que garanta melhores condições de trabalho e uma remuneração justa, além de assegurar a alocação transversal de servidores da ERCE em múltiplos órgãos do Executivo Federal, priorizando carreiras estratégicas em um ciclo de infraestrutura pública.
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<h4>
+						Chamada à mobilização e novas filiações
+					</h4>
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					O encontro também reforçou a necessidade de mobilização dos servidores da ERCE em torno do Sindicato. Com o chamado para novas filiações, o SINAEG busca ampliar a representatividade da categoria e fortalecer sua posição nas negociações com o Governo. "Juntos somos mais fortes", ressaltou Carvalho, convocando os servidores a se unirem ao SINAEG para que a carreira tenha ainda mais poder de ação.
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					A confraternização foi um momento importante para os servidores presentes, que tiveram a oportunidade de trocar experiências, se conhecer melhor e alinhar estratégias para o futuro. Entre os participantes estavam profissionais de diversas áreas e órgãos, como Receita Federal, FUNASA, SPU e outros. A diversidade da carreira da ERCE ficou evidente na troca de informações e na construção de um sentimento de unidade entre os colegas.
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					O encontro também foi uma oportunidade de integração e troca de experiências entre os colegas. Rosangela Vasconcelos, economista da Superintendência de Patrimônio da União do Ceará (SPU-CE), comentou sobre o evento: "Eu gostei bastante dessa excelente oportunidade, obrigado ao Roberto por ter aberto esse espaço pra gente se conhecer e compartilhar tantas coisas boas, referente às conquistas e à importância do nosso sindicato, sem contar que foi tudo bem leve e agradável
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					O SINAEG espera organizar novos encontros como este em outras regiões do país, ampliando ainda mais o diálogo entre os servidores e fortalecendo a luta por uma carreira valorizada e reconhecida. Estes eventos, além de promoverem a união da categoria, também são fundamentais para planejar as ações futuras do Sindicato e garantir que os servidores da ERCE continuem desempenhando suas funções com excelência em todo o Brasil.
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Os encontros do SINAEG continuarão a fomentar o diálogo e o fortalecimento da carreira, contando com a participação ativa de todos os servidores da ERCE. A presença em eventos como esse é fundamental para o sucesso das ações do Sindicato e para o fortalecimento da representatividade da categoria em todas as regiões do Brasil.
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<h4>
+						-Juntos somos mais fortes!
+					</h4>
+
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+					
+
+					<img src="../../../noticias/2024/noticia34/foto3.jpg" />
+					<br/>
+					<!--<img src="../../../noticias/2024/noticia24/foto2.jpg" />-->
+					<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br/>
+					<p style="font-weight: bold;">
+						<a href="https://sinaeg.org.br/noticias/2024/noticia25/doc1.docx"
+						target="_blank" style="color: white;"
+						 class="btn">AGRICULTURA FAMILIAR URBANA &nbsp;<i class="fa fa-long-arrow-right"></i></a>
+
+					</p>  -->	
+				</p>	
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div id="idFooter"></div>							
+	<script>				
+			carregarFooter();							
+	</script>
+	
+	<!--/ End Footer Area -->
+
+	<!-- jquery Min JS -->
+	<script src="../../../js/jquery.min.js"></script>
+	<!-- jquery Migrate JS -->
+	<script src="../../../js/jquery-migrate-3.0.0.js"></script>
+	<!-- jquery Ui JS -->
+	<script src="../../../js/jquery-ui.min.js"></script>
+	<!-- Easing JS -->
+	<script src="../../../js/easing.js"></script>
+	<!-- Color JS -->
+	<script src="../../../js/colors.js"></script>
+	<!-- Popper JS -->
+	<script src="../../../js/popper.min.js"></script>
+	<!-- Bootstrap Datepicker JS -->
+	<script src="../../../js/bootstrap-datepicker.js"></script>
+	<!-- Jquery Nav JS -->
+	<script src="../../../js/jquery.nav.js"></script>
+	<!-- Slicknav JS -->
+	<script src="../../../js/slicknav.min.js"></script>
+	<!-- ScrollUp JS -->
+	<script src="../../../js/jquery.scrollUp.min.js"></script>
+	<!-- Niceselect JS -->
+	<script src="../../../js/niceselect.js"></script>
+	<!-- Tilt Jquery JS -->
+	<script src="../../../js/tilt.jquery.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="../../../js/owl-carousel.js"></script>
+	<!-- counterup JS -->
+	<script src="../../../js/jquery.counterup.min.js"></script>
+	<!-- Steller JS -->
+	<script src="../../../js/steller.js"></script>
+	<!-- Wow JS -->
+	<script src="../../../js/wow.min.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="../../../js/jquery.magnific-popup.min.js"></script>
+	<!-- Counter Up CDN JS -->
+	<script src="../../../js/waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="../../../js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="../../../js/main.js"></script>
+	<!-- CSP JS -->
+	<script src="../../../js/csp.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbn6LcWCfCn9VUPcbAfFj5CEZD4FuuDjU"></script>
+
+	<script src="../../../js/maps/googleMaps.js"></script>
+
+	<script src="../../../js/funcoes.js"></script>
+
+
+</body>
+
+</html>
