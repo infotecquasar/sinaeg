@@ -408,7 +408,7 @@ function carregarNoticiasIndex(){
            var result = "<div class='row'>";           
                 result += "<div class='col-xl-8 p-xl-1'>";                  
                     result += "<div id='myslide' class='carousel slide' data-ride='carousel'>";                 
-                        result += "<ol class='carousel-indicators'>";
+                        result += "<ol class='carousel-indicators' style='cursor:pointer'>";
                             result += "<li data-target='#myslide' data-slide-to='0' class=' active'></li>";
                             result += "<li data-target='#myslide' data-slide-to='1' class=''></li>";
                             result += "<li data-target='#myslide' data-slide-to='2' class=''></li>";
