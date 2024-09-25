@@ -848,7 +848,10 @@ body{
 	padding-top:100px;
 }
 .Feautes .single-features{
-	width: 80%; margin: auto; padding: 20px; text-align: justify; border: 
+	width: 100%; 
+	margin: auto; 
+	padding: 20px; 
+	text-align: justify; border: 
 }
 .Feautes .single-features::before {
 	position: absolute;
