@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia35/noticia35.html",
+        "fotoDestaque" :"noticias/2024/noticia35/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia35/foto1.jpg",
+        "tituloDaNoticia":	"-REUNIÕES ESTRATÉGICAS DO SINAEG COM MGI E MPO",
+        "corpoTituloDaNoticia" : "📢 Notícia | REUNIÕES ESTRATÉGICAS DO SINAEG COM MGI E MPO",
+        "dataNoticia": "27.09.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia34/noticia34.html",
         "fotoDestaque" :"noticias/2024/noticia34/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia34/foto2.jpg",
