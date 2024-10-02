@@ -1,5 +1,14 @@
 const artigos = [
     {
+        "linkPaginaHtml": "noticias/2024/noticia36/noticia36.html",
+        "fotoDestaque" :"noticias/2024/noticia36/foto1.jpg",
+        "fotoArtigo" :	"noticias/2024/noticia36/foto1.jpg",
+        "tituloDaNoticia":	"-SERVIDORES DA ERCE: ESSENCIAIS PARA O FUTURO DO BRASIL",
+        "corpoTituloDaNoticia" : "📢 Notícia | SERVIDORES DA ERCE: ESSENCIAIS PARA O FUTURO DO BRASIL",
+        "dataNoticia": "02.10.2024",
+        "tipo":"noticia"
+    }, 
+    {
         "linkPaginaHtml": "noticias/2024/noticia35/noticia35.html",
         "fotoDestaque" :"noticias/2024/noticia35/foto1.jpg",
         "fotoArtigo" :	"noticias/2024/noticia35/foto1.jpg",
